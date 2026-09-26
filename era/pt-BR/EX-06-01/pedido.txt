@@ -1,0 +1,5 @@
+[Primeiro pedido]
+Não sei nada de projeto nem de modelagem 3D. Quero um modelo de uma estante de livros com oitenta centímetros de largura, cento e vinte de altura e trinta de profundidade, com três prateleiras. Antes de fazer, me pergunte tudo que você precisa decidir e que eu ainda não disse — espessura, se tem fundo, se as prateleiras encaixam ou apoiam, se tem pés. Use uma ferramenta gratuita e aberta e pergunte antes de instalar qualquer coisa. Faça o modelo de um jeito que eu possa depois mudar as medidas sem refazer tudo. Quando terminar, me diga como abro o arquivo para girar o objeto e como medir as distâncias dentro do programa.
+
+[Segundo pedido]
+Mude a largura para cem centímetros e acrescente mais uma prateleira, mantendo os espaçamentos iguais entre elas. Não mude mais nada.

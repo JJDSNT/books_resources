@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EX-04-02 — Mande o endereço para alguém</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:20px 16px 56px; font-family:-apple-system,
+    BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; line-height:1.55;
+    color:#12202B; background:#FAF8F4; max-width:44rem;
+    margin-inline:auto; }
+  .et { font-size:.68rem; letter-spacing:.2em; color:#A8703A;
+    text-transform:uppercase; margin:0 0 .3rem; }
+  h1 { font-size:1.4rem; line-height:1.25; margin:0 0 .2rem;
+    color:#12344F; }
+  .cap { color:#6B7780; font-size:.86rem; margin:0 0 1.4rem; }
+  h2 { font-size:1rem; margin:1.8rem 0 .5rem; color:#12344F; }
+  .box { background:#F1EAE0; border-left:4px solid #E3A870;
+    padding:14px 14px 10px; margin:0 0 1rem; }
+  .rot { font-size:.66rem; letter-spacing:.16em; color:#A8703A;
+    text-transform:uppercase; margin:0 0 .4rem; }
+  pre { margin:0 0 .7rem; white-space:pre-wrap; word-wrap:break-word;
+    font-size:.86rem; line-height:1.5; font-family:ui-monospace,
+    SFMono-Regular,Menlo,monospace; color:#12202B; }
+  button { font:inherit; font-size:.9rem; font-weight:600; cursor:pointer;
+    background:#12344F; color:#FAF8F4; border:0; border-radius:6px;
+    padding:11px 18px; width:100%; }
+  button:active { background:#1E8E99; }
+  button.ok { background:#1E8E99; }
+  ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  footer { margin-top:2.5rem; padding-top:1rem;
+    border-top:1px solid #DFD8CC; font-size:.8rem; color:#6B7780; }
+  a { color:#1E8E99; }
+  @media (prefers-color-scheme: dark) {
+    body { background:#0E1A22; color:#E8E4DC; }
+    h1, h2 { color:#8CE8E7; }
+    .box { background:#1A2730; border-left-color:#E3A870; }
+    pre { color:#E8E4DC; }
+    button { background:#32D9E2; color:#0E1A22; }
+  }
+</style>
+<p class="et">Experimente</p>
+<h1>Mande o endereço para alguém</h1>
+<p class="cap">EX-04-02 &middot; capítulo 12 de <em>A Era dos Agentes</em></p>
+
+<h2>O que você vai ver acontecer</h2>
+<p>O programa que você mandou escrever sair do seu computador e passar a existir num endereço que outra pessoa abre do celular dela.</p>
+
+<h2>O que você precisa ter</h2>
+<p>O agente local, o programa do capítulo anterior e uma conta gratuita no provedor. Cerca de quarenta minutos. Alguém para mandar o endereço no fim.</p>
+
+<h2>O pedido</h2>
+<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
+<div class="box"><pre id="p0">Não sei programar nem entendo de servidor. Quero que este programa que está na minha máquina fique disponível num endereço na internet, que eu possa mandar para outra pessoa abrir. Use o plano gratuito. Antes de qualquer coisa, me explique em linguagem comum o que você vai fazer e o que vai precisar da minha conta. Não contrate nada, não mude de plano e não compre recurso nenhum sem me perguntar antes — se esbarrar em algum limite, pare e me conte em vez de resolver pagando. Quando terminar, me diga o endereço, onde eu leio os registros de erro, onde eu vejo quanto da cota gratuita estou usando, e como eu apago tudo isto depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+
+<h2>Passos</h2>
+<ol><li>Crie a conta no provedor pelo navegador. Não é pedido cartão. Se um dia passar a ser, pare e leia com atenção antes de continuar — este exercício não precisa de plano pago.</li><li>Abra o agente local na pasta do programa e cole o pedido.</li><li>Quando ele pedir autorização para conectar-se à sua conta, leia o que está sendo autorizado.</li><li>Deixe implantar e abra o endereço que ele devolver.</li><li>Mande o endereço para alguém e peça que a pessoa abra no celular dela.</li><li>Pergunte ao agente onde se lê o log e onde se vê o consumo da cota.</li><li>Pergunte como apagar o projeto — e, se era só um teste, apague.</li></ol>
+
+<footer>
+  As perguntas de observação e o conceito que este exercício demonstra estão
+  no livro.<br>
+  <a href="https://github.com/JJDSNT/books_resources/tree/main/era/pt-BR/EX-04-02">Ver
+  no repositório</a> &middot; verificado em 2026-09-26
+</footer>
+
+<script>
+document.querySelectorAll('[data-copiar]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var t = document.getElementById(b.dataset.copiar).innerText;
+    navigator.clipboard.writeText(t).then(function () {
+      var antes = b.textContent;
+      b.textContent = 'Copiado';
+      b.classList.add('ok');
+      setTimeout(function () {
+        b.textContent = antes; b.classList.remove('ok');
+      }, 2000);
+    });
+  });
+});
+</script>

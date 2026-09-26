@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EX-04-03 — Mudar o que está no ar</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:20px 16px 56px; font-family:-apple-system,
+    BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; line-height:1.55;
+    color:#12202B; background:#FAF8F4; max-width:44rem;
+    margin-inline:auto; }
+  .et { font-size:.68rem; letter-spacing:.2em; color:#A8703A;
+    text-transform:uppercase; margin:0 0 .3rem; }
+  h1 { font-size:1.4rem; line-height:1.25; margin:0 0 .2rem;
+    color:#12344F; }
+  .cap { color:#6B7780; font-size:.86rem; margin:0 0 1.4rem; }
+  h2 { font-size:1rem; margin:1.8rem 0 .5rem; color:#12344F; }
+  .box { background:#F1EAE0; border-left:4px solid #E3A870;
+    padding:14px 14px 10px; margin:0 0 1rem; }
+  .rot { font-size:.66rem; letter-spacing:.16em; color:#A8703A;
+    text-transform:uppercase; margin:0 0 .4rem; }
+  pre { margin:0 0 .7rem; white-space:pre-wrap; word-wrap:break-word;
+    font-size:.86rem; line-height:1.5; font-family:ui-monospace,
+    SFMono-Regular,Menlo,monospace; color:#12202B; }
+  button { font:inherit; font-size:.9rem; font-weight:600; cursor:pointer;
+    background:#12344F; color:#FAF8F4; border:0; border-radius:6px;
+    padding:11px 18px; width:100%; }
+  button:active { background:#1E8E99; }
+  button.ok { background:#1E8E99; }
+  ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  footer { margin-top:2.5rem; padding-top:1rem;
+    border-top:1px solid #DFD8CC; font-size:.8rem; color:#6B7780; }
+  a { color:#1E8E99; }
+  @media (prefers-color-scheme: dark) {
+    body { background:#0E1A22; color:#E8E4DC; }
+    h1, h2 { color:#8CE8E7; }
+    .box { background:#1A2730; border-left-color:#E3A870; }
+    pre { color:#E8E4DC; }
+    button { background:#32D9E2; color:#0E1A22; }
+  }
+</style>
+<p class="et">Experimente</p>
+<h1>Mudar o que está no ar</h1>
+<p class="cap">EX-04-03 &middot; capítulo 13 de <em>A Era dos Agentes</em></p>
+
+<h2>O que você vai ver acontecer</h2>
+<p>Uma alteração chegar ao endereço público, e você conferir primeiro o que **não** era para mudar — com a versão anterior de prontidão, caso precise voltar.</p>
+
+<h2>O que você precisa ter</h2>
+<p>O programa publicado no capítulo anterior. Cerca de trinta minutos.</p>
+
+<h2>O pedido</h2>
+<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
+<div class="box"><pre id="p0">Quero acrescentar três botões ao programa que já está no ar: ver todas as tarefas, ver só as pendentes, ver só as concluídas. Tudo que já funcionava precisa continuar funcionando do mesmo jeito, e nada do que já está salvo pode se perder. Antes de mudar, me diga como eu volto para a versão que está publicada agora, caso a nova dê problema. Quando terminar, me diga o que você mudou, o que você conferiu e o que ficou para eu conferir.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+
+<h2>Passos</h2>
+<ol><li>Antes de mudar qualquer coisa, pergunte ao agente como se volta para a versão anterior. Anote a resposta.</li><li>Cole o pedido da mudança.</li><li>Quando ele terminar e publicar, abra o endereço.</li><li>Teste primeiro o que não era para mudar: criar, marcar, fechar, reabrir.</li><li>Só então experimente os filtros novos.</li><li>Se algo tiver quebrado, volte para a versão anterior — e repare em quanto tempo levou.</li></ol>
+
+<footer>
+  As perguntas de observação e o conceito que este exercício demonstra estão
+  no livro.<br>
+  <a href="https://github.com/JJDSNT/books_resources/tree/main/era/pt-BR/EX-04-03">Ver
+  no repositório</a> &middot; verificado em 2026-09-26
+</footer>
+
+<script>
+document.querySelectorAll('[data-copiar]').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var t = document.getElementById(b.dataset.copiar).innerText;
+    navigator.clipboard.writeText(t).then(function () {
+      var antes = b.textContent;
+      b.textContent = 'Copiado';
+      b.classList.add('ok');
+      setTimeout(function () {
+        b.textContent = antes; b.classList.remove('ok');
+      }, 2000);
+    });
+  });
+});
+</script>

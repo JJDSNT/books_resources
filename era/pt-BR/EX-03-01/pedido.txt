@@ -1,0 +1,5 @@
+[Windows]
+Uso Windows e nunca usei terminal. Quero deixar meu computador pronto para rodar um agente de programação localmente, o que pelo que entendi exige instalar o WSL. Me conduza um passo de cada vez: diga o que devo fazer, explique em uma frase o que aquele passo faz e o que eu deveria ver na tela, e espere eu confirmar antes de passar ao próximo. Se algo falhar, vou colar a mensagem inteira. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo, se algum dia quiser.
+
+[macOS e Linux]
+Uso [seu sistema] e nunca usei terminal. Confirme se meu terminal já está pronto para rodar um agente de programação localmente e me oriente a instalar um, um passo de cada vez, explicando cada etapa e esperando eu confirmar. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo.
