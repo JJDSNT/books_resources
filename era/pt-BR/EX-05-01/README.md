@@ -1,6 +1,6 @@
 # EX-05-01 — Quinze segundos que você assiste
 
-Exercício do capítulo 15 de **A Era dos Agentes**, *Da sequência ao arquivo*.
+Exercício de **A Era dos Agentes** — Parte V, capítulo 15, *Da sequência ao arquivo*.
 
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 

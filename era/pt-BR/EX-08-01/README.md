@@ -1,6 +1,6 @@
 # EX-08-01 — Uma pergunta, e a fonte aberta
 
-Exercício do capítulo 23 de **A Era dos Agentes**, *A música ajuda a estudar?*.
+Exercício de **A Era dos Agentes** — Parte VIII, capítulo 23, *A música ajuda a estudar?*.
 
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 

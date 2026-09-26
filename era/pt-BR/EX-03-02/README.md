@@ -1,6 +1,6 @@
 # EX-03-02 — Do endereço às suas fotos
 
-Exercício do capítulo 10 de **A Era dos Agentes**, *As suas fotos na tela*.
+Exercício de **A Era dos Agentes** — Parte III, capítulo 10, *As suas fotos na tela*.
 
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 

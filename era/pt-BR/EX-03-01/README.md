@@ -1,6 +1,6 @@
 # EX-03-01 — Peça ajuda para abrir a porta
 
-Exercício do capítulo 9 de **A Era dos Agentes**, *Preparar a máquina sem saber como*.
+Exercício de **A Era dos Agentes** — Parte III, capítulo 9, *Preparar a máquina sem saber como*.
 
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 
@@ -32,10 +32,16 @@ Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [págin
 Uso Windows e nunca usei terminal. Quero deixar meu computador pronto para rodar um agente de programação localmente, o que pelo que entendi exige instalar o WSL. Me conduza um passo de cada vez: diga o que devo fazer, explique em uma frase o que aquele passo faz e o que eu deveria ver na tela, e espere eu confirmar antes de passar ao próximo. Se algo falhar, vou colar a mensagem inteira. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo, se algum dia quiser.
 ```
 
-### macOS e Linux
+### macOS
 
 ```
-Uso [seu sistema] e nunca usei terminal. Confirme se meu terminal já está pronto para rodar um agente de programação localmente e me oriente a instalar um, um passo de cada vez, explicando cada etapa e esperando eu confirmar. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo.
+Uso macOS e nunca usei terminal. Confirme se meu terminal já está pronto para rodar um agente de programação localmente e me oriente a instalar um, um passo de cada vez, explicando cada etapa e esperando eu confirmar. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo.
+```
+
+### Linux
+
+```
+Uso Linux e nunca usei terminal. Confirme se meu terminal já está pronto para rodar um agente de programação localmente e me oriente a instalar um, um passo de cada vez, explicando cada etapa e esperando eu confirmar. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo.
 ```
 
 ---

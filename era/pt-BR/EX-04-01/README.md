@@ -1,6 +1,6 @@
 # EX-04-01 — Um programa que nasce da sua descrição
 
-Exercício do capítulo 11 de **A Era dos Agentes**, *Ver um agente programar*.
+Exercício de **A Era dos Agentes** — Parte IV, capítulo 11, *Ver um agente programar*.
 
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 

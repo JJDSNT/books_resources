@@ -13,56 +13,67 @@
   "exercicios": [
     {
       "id": "EX-02-01",
+      "parte": "Parte II",
       "capitulo": 4,
       "titulo": "De quem veio esse detalhe?"
     },
     {
       "id": "EX-03-01",
+      "parte": "Parte III",
       "capitulo": 9,
       "titulo": "Peça ajuda para abrir a porta"
     },
     {
       "id": "EX-03-02",
+      "parte": "Parte III",
       "capitulo": 10,
       "titulo": "Do endereço às suas fotos"
     },
     {
       "id": "EX-04-01",
+      "parte": "Parte IV",
       "capitulo": 11,
       "titulo": "Um programa que nasce da sua descrição"
     },
     {
       "id": "EX-04-02",
+      "parte": "Parte IV",
       "capitulo": 12,
       "titulo": "Mande o endereço para alguém"
     },
     {
       "id": "EX-04-03",
+      "parte": "Parte IV",
       "capitulo": 13,
       "titulo": "Mudar o que está no ar"
     },
     {
       "id": "EX-05-01",
+      "parte": "Parte V",
       "capitulo": 15,
       "titulo": "Quinze segundos que você assiste"
     },
     {
       "id": "EX-06-01",
+      "parte": "Parte VI",
       "capitulo": 17,
       "titulo": "Uma estante que obedece a números"
     },
     {
       "id": "EX-07-01",
+      "parte": "Parte VII",
       "capitulo": 20,
       "titulo": "O processo para e espera por você"
     },
     {
       "id": "EX-07-02",
+      "parte": "Parte VII",
       "capitulo": 21,
       "titulo": "Três agentes e um plano que precisa fechar"
     },
     {
       "id": "EX-08-01",
+      "parte": "Parte VIII",
       "capitulo": 23,
       "titulo": "Uma pergunta, e a fonte aberta"
     }

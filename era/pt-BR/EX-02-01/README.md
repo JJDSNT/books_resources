@@ -1,6 +1,6 @@
 # EX-02-01 — De quem veio esse detalhe?
 
-Exercício do capítulo 4 de **A Era dos Agentes**, *A página em branco já não está sozinha*.
+Exercício de **A Era dos Agentes** — Parte II, capítulo 4, *A página em branco já não está sozinha*.
 
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 

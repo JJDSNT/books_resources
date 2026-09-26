@@ -34,6 +34,9 @@
   footer { margin-top:1.2rem; padding-top:1rem;
     border-top:1px solid #DFD8CC; font-size:.8rem; color:#6B7780; }
   a { color:#1E8E99; }
+  .aviso { background:#FBEFD9; border-left:4px solid #A8703A;
+    padding:11px 13px; margin:0 0 1.2rem; font-size:.9rem; }
+  @media (prefers-color-scheme: dark) { .aviso { background:#2A2118; } }
   @media (prefers-color-scheme: dark) {
     body { background:#0E1A22; color:#E8E4DC; }
     h1, h2 { color:#8CE8E7; }
@@ -44,7 +47,7 @@
 </style>
 <p class="et">Experimente</p>
 <h1>O processo para e espera por você</h1>
-<p class="cap">EX-07-01 &middot; capítulo 20 de <em>A Era dos Agentes</em></p>
+<p class="cap">EX-07-01 &middot; Parte VII, capítulo 20 &middot; <em>A Era dos Agentes</em></p>
 
 <h2>O que você vai ver acontecer</h2>
 <p>Um pedido escrito em português comum atravessar seis etapas na sua máquina, parar numa decisão que só você pode tomar, e esperar — mesmo que você feche tudo e volte depois.</p>
@@ -54,7 +57,7 @@
 
 <h2>O pedido</h2>
 <p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Não sei programar. Quero montar na minha máquina um processo pequeno e fictício de uma papelaria, que funcione inteiramente offline e de graça. Ele deve: receber um pedido escrito em linguagem comum; extrair produto, quantidade e prazo; consultar um arquivo de estoque fictício que você vai criar; aplicar a regra de que pedidos acima de cem unidades precisam da minha aprovação; parar e esperar minha decisão, guardando o estado de forma que eu possa fechar tudo e retomar depois; e então gerar uma resposta ao cliente que reflita o que aconteceu, inclusive se eu recusar. Antes de instalar qualquer coisa, me diga o que é e quanto vai ocupar, e pergunte. Explique em linguagem comum o que cada etapa faz. No fim, me diga como eu rodo, como eu aprovo, como eu vejo o estado guardado e como removo tudo depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<div class="box"><pre id="p0">Não sei programar. Quero montar na minha máquina um processo pequeno e fictício de uma papelaria, que funcione inteiramente offline e de graça, usando Ollama com um modelo pequeno e LangGraph para organizar as etapas. Ele deve: receber um pedido escrito em linguagem comum; extrair produto, quantidade e prazo; consultar um arquivo de estoque fictício que você vai criar; aplicar a regra de que pedidos acima de cem unidades precisam da minha aprovação; parar e esperar minha decisão, guardando o estado de forma que eu possa fechar tudo e retomar depois; e então gerar uma resposta ao cliente que reflita o que aconteceu, inclusive se eu recusar. Antes de instalar qualquer coisa, me diga o que é e quanto vai ocupar, e pergunte. Explique em linguagem comum o que cada etapa faz. No fim, me diga como eu rodo, como eu aprovo, como eu vejo o estado guardado e como removo tudo depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
 
 <h2>Passos</h2>
 <ol><li>Abra o agente local numa pasta nova e cole o pedido do repositório.</li><li>Autorize as instalações conforme ele explicar o que é cada uma e quanto ocupa.</li><li>Rode o processo com o pedido fictício de duzentos cadernos.</li><li>Quando ele parar esperando sua decisão, feche tudo. Vá fazer outra coisa. Volte depois e retome.</li><li>Aprove, e leia a resposta gerada ao cliente.</li><li>Rode de novo e, desta vez, recuse. Leia a resposta outra vez.</li><li>Peça para ver o estado guardado após cada etapa.</li><li>Cronometre uma resposta do modelo local.</li></ol>
