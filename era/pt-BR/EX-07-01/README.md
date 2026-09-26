@@ -25,7 +25,7 @@ O agente local que você preparou. Autorização para instalar o Ollama, um mode
 
 ## O pedido
 
-Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt/EX-07-01/).
+Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-07-01/).
 
 ```
 Não sei programar. Quero montar na minha máquina um processo pequeno e fictício de uma papelaria, que funcione inteiramente offline e de graça. Ele deve: receber um pedido escrito em linguagem comum; extrair produto, quantidade e prazo; consultar um arquivo de estoque fictício que você vai criar; aplicar a regra de que pedidos acima de cem unidades precisam da minha aprovação; parar e esperar minha decisão, guardando o estado de forma que eu possa fechar tudo e retomar depois; e então gerar uma resposta ao cliente que reflita o que aconteceu, inclusive se eu recusar. Antes de instalar qualquer coisa, me diga o que é e quanto vai ocupar, e pergunte. Explique em linguagem comum o que cada etapa faz. No fim, me diga como eu rodo, como eu aprovo, como eu vejo o estado guardado e como removo tudo depois.

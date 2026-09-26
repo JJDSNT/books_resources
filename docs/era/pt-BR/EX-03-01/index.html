@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EX-04-02 — Mande o endereço para alguém</title>
+<title>EX-03-01 — Peça ajuda para abrir a porta</title>
 <style>
   :root { color-scheme: light dark; }
   * { box-sizing: border-box; }
@@ -29,7 +29,9 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
-  footer { margin-top:2.5rem; padding-top:1rem;
+  .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
+    font-size:.9rem; }
+  footer { margin-top:1.2rem; padding-top:1rem;
     border-top:1px solid #DFD8CC; font-size:.8rem; color:#6B7780; }
   a { color:#1E8E99; }
   @media (prefers-color-scheme: dark) {
@@ -41,26 +43,30 @@
   }
 </style>
 <p class="et">Experimente</p>
-<h1>Mande o endereço para alguém</h1>
-<p class="cap">EX-04-02 &middot; capítulo 12 de <em>A Era dos Agentes</em></p>
+<h1>Peça ajuda para abrir a porta</h1>
+<p class="cap">EX-03-01 &middot; capítulo 9 de <em>A Era dos Agentes</em></p>
 
 <h2>O que você vai ver acontecer</h2>
-<p>O programa que você mandou escrever sair do seu computador e passar a existir num endereço que outra pessoa abre do celular dela.</p>
+<p>Um agente que você nem instalou ainda conduzindo você, passo a passo, pela preparação do seu próprio computador.</p>
 
 <h2>O que você precisa ter</h2>
-<p>O agente local, o programa do capítulo anterior e uma conta gratuita no provedor. Cerca de quarenta minutos. Alguém para mandar o endereço no fim.</p>
+<p>Um agente de conversa na web, sem instalar nada. Cerca de trinta minutos. Paciência com a possibilidade de algo dar errado no meio — e vai dar.</p>
 
 <h2>O pedido</h2>
 <p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Não sei programar nem entendo de servidor. Quero que este programa que está na minha máquina fique disponível num endereço na internet, que eu possa mandar para outra pessoa abrir. Use o plano gratuito. Antes de qualquer coisa, me explique em linguagem comum o que você vai fazer e o que vai precisar da minha conta. Não contrate nada, não mude de plano e não compre recurso nenhum sem me perguntar antes — se esbarrar em algum limite, pare e me conte em vez de resolver pagando. Quando terminar, me diga o endereço, onde eu leio os registros de erro, onde eu vejo quanto da cota gratuita estou usando, e como eu apago tudo isto depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<div class="box"><p class="rot">Windows</p><pre id="p0">Uso Windows e nunca usei terminal. Quero deixar meu computador pronto para rodar um agente de programação localmente, o que pelo que entendi exige instalar o WSL. Me conduza um passo de cada vez: diga o que devo fazer, explique em uma frase o que aquele passo faz e o que eu deveria ver na tela, e espere eu confirmar antes de passar ao próximo. Se algo falhar, vou colar a mensagem inteira. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo, se algum dia quiser.</pre><button data-copiar="p0">Copiar o pedido</button></div><div class="box"><p class="rot">macOS e Linux</p><pre id="p1">Uso [seu sistema] e nunca usei terminal. Confirme se meu terminal já está pronto para rodar um agente de programação localmente e me oriente a instalar um, um passo de cada vez, explicando cada etapa e esperando eu confirmar. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo.</pre><button data-copiar="p1">Copiar o pedido</button></div>
 
 <h2>Passos</h2>
-<ol><li>Crie a conta no provedor pelo navegador. Não é pedido cartão. Se um dia passar a ser, pare e leia com atenção antes de continuar — este exercício não precisa de plano pago.</li><li>Abra o agente local na pasta do programa e cole o pedido.</li><li>Quando ele pedir autorização para conectar-se à sua conta, leia o que está sendo autorizado.</li><li>Deixe implantar e abra o endereço que ele devolver.</li><li>Mande o endereço para alguém e peça que a pessoa abra no celular dela.</li><li>Pergunte ao agente onde se lê o log e onde se vê o consumo da cota.</li><li>Pergunte como apagar o projeto — e, se era só um teste, apague.</li></ol>
+<ol><li>Abra um agente de conversa na web.</li><li>Pegue no repositório o pedido correspondente ao seu sistema — há um para Windows e outro para macOS e Linux.</li><li>Cole e siga um passo de cada vez, confirmando cada etapa antes de seguir.</li><li>Quando algo falhar, cole a mensagem de erro inteira, sem editar, e diga o que você tinha acabado de fazer.</li><li>Instale o agente local que você escolher. Codex é a sugestão deste livro pela possibilidade de uso gratuito; Claude Code, Gemini CLI e OpenCode fazem o mesmo trabalho.</li><li>Abra o agente local e peça a coisa mais simples possível: que ele diga em que pasta está trabalhando agora.</li><li>Anote como desfazer tudo, caso um dia queira.</li></ol>
+
+<nav class="nav">
+  <a href="../">Todos os exercícios</a>
+</nav>
 
 <footer>
   As perguntas de observação e o conceito que este exercício demonstra estão
   no livro.<br>
-  <a href="https://github.com/JJDSNT/books_resources/tree/main/era/pt-BR/EX-04-02">Ver
+  <a href="https://github.com/JJDSNT/books_resources/tree/main/era/pt-BR/EX-03-01">Ver
   no repositório</a> &middot; verificado em 2026-09-26
 </footer>
 

@@ -24,7 +24,7 @@ O agente local, o programa do capítulo anterior e uma conta gratuita no provedo
 
 ## O pedido
 
-Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt/EX-04-02/).
+Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-02/).
 
 ```
 Não sei programar nem entendo de servidor. Quero que este programa que está na minha máquina fique disponível num endereço na internet, que eu possa mandar para outra pessoa abrir. Use o plano gratuito. Antes de qualquer coisa, me explique em linguagem comum o que você vai fazer e o que vai precisar da minha conta. Não contrate nada, não mude de plano e não compre recurso nenhum sem me perguntar antes — se esbarrar em algum limite, pare e me conte em vez de resolver pagando. Quando terminar, me diga o endereço, onde eu leio os registros de erro, onde eu vejo quanto da cota gratuita estou usando, e como eu apago tudo isto depois.

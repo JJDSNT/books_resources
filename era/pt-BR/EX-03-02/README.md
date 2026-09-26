@@ -25,7 +25,7 @@ O agente local que você preparou no capítulo anterior, e uma pasta com fotos s
 
 ## O pedido
 
-Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt/EX-03-02/).
+Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-03-02/).
 
 ```
 Não sei programar. Quero ver as fotos de uma pasta minha organizadas por mês, no navegador, sem que nada saia do meu computador. Encontrei este projeto: [endereço do projeto galeria]. Leia o projeto e me explique em linguagem comum o que ele faz. Depois me diga o que é preciso instalar para rodá-lo aqui e pergunte antes de instalar qualquer coisa. Trabalhe só na pasta que eu indicar, não envie nada para fora e não modifique minhas fotos originais. Quando estiver rodando, me diga o endereço para eu abrir no navegador. No fim, me diga o que você instalou e como eu removo, se quiser.

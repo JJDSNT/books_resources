@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EX-04-03 — Mudar o que está no ar</title>
+<title>EX-07-01 — O processo para e espera por você</title>
 <style>
   :root { color-scheme: light dark; }
   * { box-sizing: border-box; }
@@ -29,7 +29,9 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
-  footer { margin-top:2.5rem; padding-top:1rem;
+  .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
+    font-size:.9rem; }
+  footer { margin-top:1.2rem; padding-top:1rem;
     border-top:1px solid #DFD8CC; font-size:.8rem; color:#6B7780; }
   a { color:#1E8E99; }
   @media (prefers-color-scheme: dark) {
@@ -41,26 +43,30 @@
   }
 </style>
 <p class="et">Experimente</p>
-<h1>Mudar o que está no ar</h1>
-<p class="cap">EX-04-03 &middot; capítulo 13 de <em>A Era dos Agentes</em></p>
+<h1>O processo para e espera por você</h1>
+<p class="cap">EX-07-01 &middot; capítulo 20 de <em>A Era dos Agentes</em></p>
 
 <h2>O que você vai ver acontecer</h2>
-<p>Uma alteração chegar ao endereço público, e você conferir primeiro o que **não** era para mudar — com a versão anterior de prontidão, caso precise voltar.</p>
+<p>Um pedido escrito em português comum atravessar seis etapas na sua máquina, parar numa decisão que só você pode tomar, e esperar — mesmo que você feche tudo e volte depois.</p>
 
 <h2>O que você precisa ter</h2>
-<p>O programa publicado no capítulo anterior. Cerca de trinta minutos.</p>
+<p>O agente local que você preparou. Autorização para instalar o Ollama, um modelo pequeno e algumas bibliotecas. Cerca de uma hora, e paciência com download.</p>
 
 <h2>O pedido</h2>
 <p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Quero acrescentar três botões ao programa que já está no ar: ver todas as tarefas, ver só as pendentes, ver só as concluídas. Tudo que já funcionava precisa continuar funcionando do mesmo jeito, e nada do que já está salvo pode se perder. Antes de mudar, me diga como eu volto para a versão que está publicada agora, caso a nova dê problema. Quando terminar, me diga o que você mudou, o que você conferiu e o que ficou para eu conferir.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<div class="box"><pre id="p0">Não sei programar. Quero montar na minha máquina um processo pequeno e fictício de uma papelaria, que funcione inteiramente offline e de graça. Ele deve: receber um pedido escrito em linguagem comum; extrair produto, quantidade e prazo; consultar um arquivo de estoque fictício que você vai criar; aplicar a regra de que pedidos acima de cem unidades precisam da minha aprovação; parar e esperar minha decisão, guardando o estado de forma que eu possa fechar tudo e retomar depois; e então gerar uma resposta ao cliente que reflita o que aconteceu, inclusive se eu recusar. Antes de instalar qualquer coisa, me diga o que é e quanto vai ocupar, e pergunte. Explique em linguagem comum o que cada etapa faz. No fim, me diga como eu rodo, como eu aprovo, como eu vejo o estado guardado e como removo tudo depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
 
 <h2>Passos</h2>
-<ol><li>Antes de mudar qualquer coisa, pergunte ao agente como se volta para a versão anterior. Anote a resposta.</li><li>Cole o pedido da mudança.</li><li>Quando ele terminar e publicar, abra o endereço.</li><li>Teste primeiro o que não era para mudar: criar, marcar, fechar, reabrir.</li><li>Só então experimente os filtros novos.</li><li>Se algo tiver quebrado, volte para a versão anterior — e repare em quanto tempo levou.</li></ol>
+<ol><li>Abra o agente local numa pasta nova e cole o pedido do repositório.</li><li>Autorize as instalações conforme ele explicar o que é cada uma e quanto ocupa.</li><li>Rode o processo com o pedido fictício de duzentos cadernos.</li><li>Quando ele parar esperando sua decisão, feche tudo. Vá fazer outra coisa. Volte depois e retome.</li><li>Aprove, e leia a resposta gerada ao cliente.</li><li>Rode de novo e, desta vez, recuse. Leia a resposta outra vez.</li><li>Peça para ver o estado guardado após cada etapa.</li><li>Cronometre uma resposta do modelo local.</li></ol>
+
+<nav class="nav">
+  <a href="../">Todos os exercícios</a>
+</nav>
 
 <footer>
   As perguntas de observação e o conceito que este exercício demonstra estão
   no livro.<br>
-  <a href="https://github.com/JJDSNT/books_resources/tree/main/era/pt-BR/EX-04-03">Ver
+  <a href="https://github.com/JJDSNT/books_resources/tree/main/era/pt-BR/EX-07-01">Ver
   no repositório</a> &middot; verificado em 2026-09-26
 </footer>
 

@@ -21,7 +21,7 @@ exercício, com o pedido e um botão de copiar — você não precisa digitar na
 printed book a QR code opens the exercise page, with the prompt and a copy
 button — no typing needed.*
 
-- Página do exercício · exercise page: `…/era/pt/EX-04-02/`
+- Página do exercício · exercise page: `…/era/pt-BR/EX-04-02/`
 - Arquivos no repositório · files in the repo: [`era/pt-BR/`](era/pt-BR/)
 
 ## O que está aqui e o que está no livro

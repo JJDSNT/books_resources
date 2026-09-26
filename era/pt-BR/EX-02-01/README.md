@@ -23,7 +23,7 @@ Qualquer ferramenta de conversa que você já use. Nada para instalar. Dez minut
 
 ## O pedido
 
-Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt/EX-02-01/).
+Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-02-01/).
 
 ### Primeiro pedido
 

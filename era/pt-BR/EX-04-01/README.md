@@ -22,7 +22,7 @@ O agente local que você preparou. Cerca de vinte minutos.
 
 ## O pedido
 
-Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt/EX-04-01/).
+Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-01/).
 
 ```
 Não sei programar. Quero um programa simples de lista de tarefas que eu abra no navegador. Preciso que ele faça exatamente isto: eu anoto uma tarefa e ela aparece numa lista; eu marco como concluída e ela fica marcada; eu fecho e abro de novo e tudo continua lá. Mantenha o mais simples possível — nada de instalar coisas que não sejam necessárias. Antes de escrever, me diga em linguagem comum o que você pretende fazer. Quando terminar, me diga como abrir e como usar.

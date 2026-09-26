@@ -23,7 +23,7 @@ O programa publicado no capítulo anterior. Cerca de trinta minutos.
 
 ## O pedido
 
-Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt/EX-04-03/).
+Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-03/).
 
 ```
 Quero acrescentar três botões ao programa que já está no ar: ver todas as tarefas, ver só as pendentes, ver só as concluídas. Tudo que já funcionava precisa continuar funcionando do mesmo jeito, e nada do que já está salvo pode se perder. Antes de mudar, me diga como eu volto para a versão que está publicada agora, caso a nova dê problema. Quando terminar, me diga o que você mudou, o que você conferiu e o que ficou para eu conferir.

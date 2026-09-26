@@ -24,7 +24,7 @@ Um agente de conversa na web, sem instalar nada. Cerca de trinta minutos. Paciê
 
 ## O pedido
 
-Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt/EX-03-01/).
+Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-03-01/).
 
 ### Windows
 

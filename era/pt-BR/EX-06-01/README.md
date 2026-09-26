@@ -24,7 +24,7 @@ O agente local que você preparou. Cerca de quarenta minutos. Autorização para
 
 ## O pedido
 
-Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt/EX-06-01/).
+Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-06-01/).
 
 ### Primeiro pedido
 
