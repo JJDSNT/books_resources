@@ -29,6 +29,7 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
   footer { margin-top:1.2rem; padding-top:1rem;
@@ -55,12 +56,14 @@
 <h2>O que você precisa ter</h2>
 <p>Um agente com acesso à web. Cerca de trinta minutos. Disposição para clicar num link e ler um resumo.</p>
 
-<h2>O pedido</h2>
-<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Quero investigar se ouvir música durante o estudo ajuda ou atrapalha a aprendizagem. Antes de responder, separe a pergunta nas variáveis que importam: tipo de música (com letra ou sem), tipo de tarefa, e o que está sendo medido. Procure estudos reais e dê prioridade a revisões sistemáticas, se existirem. Cite apenas trabalhos que você conseguiu abrir de fato, com link, e me diga explicitamente quais você não conseguiu verificar. Separe o que é achado consistente entre vários estudos do que aparece em um estudo só. Depois de apresentar sua conclusão, liste as evidências que a contradizem. Se você não conseguir pesquisar de verdade neste ambiente, diga isso em vez de inventar referências.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
 <h2>Passos</h2>
 <ol><li>Abra um agente com acesso à web e cole o pedido do repositório.</li><li>Antes de ler a conclusão, verifique se ele separou a pergunta nas variáveis que importam: tipo de música, tipo de tarefa, o que está sendo medido.</li><li>Leia a lista de evidências que contradizem a própria conclusão dele.</li><li>Escolha uma fonte citada, abra o link e leia o resumo.</li><li>Compare o que o resumo diz com o que o agente afirmou que aquele estudo dizia.</li><li>Procure quantas pessoas participaram daquele estudo.</li><li>Pergunte se a conclusão está no estudo citado ou é síntese dele.</li></ol>
+
+<h2 id="pedido">O pedido</h2>
+<p>Toque no botão e cole na conversa com o agente.</p>
+<div class="box"><pre id="p0">Quero investigar se ouvir música durante o estudo ajuda ou atrapalha a aprendizagem. Antes de responder, separe a pergunta nas variáveis que importam: tipo de música (com letra ou sem), tipo de tarefa, e o que está sendo medido. Procure estudos reais e dê prioridade a revisões sistemáticas, se existirem. Cite apenas trabalhos que você conseguiu abrir de fato, com link, e me diga explicitamente quais você não conseguiu verificar. Separe o que é achado consistente entre vários estudos do que aparece em um estudo só. Depois de apresentar sua conclusão, liste as evidências que a contradizem. Se você não conseguir pesquisar de verdade neste ambiente, diga isso em vez de inventar referências.</pre><button data-copiar="p0">Copiar o pedido</button></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

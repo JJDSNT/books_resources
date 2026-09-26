@@ -29,6 +29,7 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
   footer { margin-top:1.2rem; padding-top:1rem;
@@ -55,12 +56,14 @@
 <h2>O que você precisa ter</h2>
 <p>Qualquer ferramenta de conversa que você já use. Nada para instalar. Dez minutos.</p>
 
-<h2>O pedido</h2>
-<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><p class="rot">Primeiro pedido</p><pre id="p0">Crie um anúncio curto para uma biblioteca comunitária que abrirá no próximo mês. Tom acolhedor.</pre><button data-copiar="p0">Copiar o pedido</button></div><div class="box"><p class="rot">Segundo pedido</p><pre id="p1">Reescreva sem inventar nome, endereço, data, horário ou atividades. Onde faltar informação, deixe o espaço marcado e me diga o que você precisaria saber.</pre><button data-copiar="p1">Copiar o pedido</button></div>
+<p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
 <h2>Passos</h2>
 <ol><li>Abra a ferramenta de conversa que você já usa.</li><li>Pegue o primeiro pedido no repositório e cole na conversa.</li><li>Leia a resposta inteira e marque cada informação específica que aparecer: nome, endereço, dia, horário, atividades, nomes de pessoas.</li><li>Conte quantas dessas informações vieram de você.</li><li>Cole o segundo pedido, que proíbe a invenção e manda declarar o que falta.</li><li>Ponha as duas respostas lado a lado.</li></ol>
+
+<h2 id="pedido">O pedido</h2>
+<p>Toque no botão e cole na conversa com o agente.</p>
+<div class="box"><p class="rot">Primeiro pedido</p><pre id="p0">Crie um anúncio curto para uma biblioteca comunitária que abrirá no próximo mês. Tom acolhedor.</pre><button data-copiar="p0">Copiar o pedido</button></div><div class="box"><p class="rot">Segundo pedido</p><pre id="p1">Reescreva sem inventar nome, endereço, data, horário ou atividades. Onde faltar informação, deixe o espaço marcado e me diga o que você precisaria saber.</pre><button data-copiar="p1">Copiar o pedido</button></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

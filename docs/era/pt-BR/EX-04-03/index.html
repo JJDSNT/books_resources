@@ -29,6 +29,7 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
   footer { margin-top:1.2rem; padding-top:1rem;
@@ -55,12 +56,14 @@
 <h2>O que você precisa ter</h2>
 <p>O programa publicado no capítulo anterior. Cerca de trinta minutos.</p>
 
-<h2>O pedido</h2>
-<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Quero acrescentar três botões ao programa que já está publicado na Netlify: ver todas as tarefas, ver só as pendentes, ver só as concluídas. Tudo que já funcionava precisa continuar funcionando do mesmo jeito, e nada do que já está salvo pode se perder. Antes de mudar, me diga como eu volto para a versão que está publicada agora, caso a nova dê problema. Quando terminar, me diga o que você mudou, o que você conferiu e o que ficou para eu conferir.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
 <h2>Passos</h2>
 <ol><li>Antes de mudar qualquer coisa, pergunte ao agente como se volta para a versão anterior. Anote a resposta.</li><li>Cole o pedido da mudança.</li><li>Quando ele terminar e publicar, abra o endereço.</li><li>Teste primeiro o que não era para mudar: criar, marcar, fechar, reabrir.</li><li>Só então experimente os filtros novos.</li><li>Se algo tiver quebrado, volte para a versão anterior — e repare em quanto tempo levou.</li></ol>
+
+<h2 id="pedido">O pedido</h2>
+<p>Toque no botão e cole na conversa com o agente.</p>
+<div class="box"><pre id="p0">Quero acrescentar três botões ao programa que já está publicado na Netlify: ver todas as tarefas, ver só as pendentes, ver só as concluídas. Tudo que já funcionava precisa continuar funcionando do mesmo jeito, e nada do que já está salvo pode se perder. Antes de mudar, me diga como eu volto para a versão que está publicada agora, caso a nova dê problema. Quando terminar, me diga o que você mudou, o que você conferiu e o que ficou para eu conferir.</pre><button data-copiar="p0">Copiar o pedido</button></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

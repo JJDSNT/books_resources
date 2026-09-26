@@ -29,6 +29,7 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
   footer { margin-top:1.2rem; padding-top:1rem;
@@ -55,12 +56,14 @@
 <h2>O que você precisa ter</h2>
 <p>O agente local que você preparou. Cerca de vinte minutos.</p>
 
-<h2>O pedido</h2>
-<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Não sei programar. Quero um programa simples de lista de tarefas que eu abra no navegador. Preciso que ele faça exatamente isto: eu anoto uma tarefa e ela aparece numa lista; eu marco como concluída e ela fica marcada; eu fecho e abro de novo e tudo continua lá. Mantenha o mais simples possível — nada de instalar coisas que não sejam necessárias. Antes de escrever, me diga em linguagem comum o que você pretende fazer. Quando terminar, me diga como abrir e como usar.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
 <h2>Passos</h2>
 <ol><li>Abra o agente local numa pasta nova.</li><li>Pegue o pedido no repositório e cole.</li><li>Leia o plano que ele propõe antes de deixar escrever. Se a proposta parecer grande demais para quatro comportamentos simples, pergunte o que você perde se for mais simples.</li><li>Deixe escrever e abra o resultado.</li><li>Faça o teste combinado: escreva duas tarefas, marque uma como concluída, feche tudo, abra de novo.</li></ol>
+
+<h2 id="pedido">O pedido</h2>
+<p>Toque no botão e cole na conversa com o agente.</p>
+<div class="box"><pre id="p0">Não sei programar. Quero um programa simples de lista de tarefas que eu abra no navegador. Preciso que ele faça exatamente isto: eu anoto uma tarefa e ela aparece numa lista; eu marco como concluída e ela fica marcada; eu fecho e abro de novo e tudo continua lá. Mantenha o mais simples possível — nada de instalar coisas que não sejam necessárias. Antes de escrever, me diga em linguagem comum o que você pretende fazer. Quando terminar, me diga como abrir e como usar.</pre><button data-copiar="p0">Copiar o pedido</button></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

@@ -29,6 +29,7 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
   footer { margin-top:1.2rem; padding-top:1rem;
@@ -55,12 +56,14 @@
 <h2>O que você precisa ter</h2>
 <p>O agente local que você preparou. Cerca de quarenta minutos. Autorização para ele instalar um programa gratuito de modelagem.</p>
 
-<h2>O pedido</h2>
-<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><p class="rot">Primeiro pedido</p><pre id="p0">Não sei nada de projeto nem de modelagem 3D. Quero um modelo de uma estante de livros com oitenta centímetros de largura, cento e vinte de altura e trinta de profundidade, com três prateleiras. Antes de fazer, me pergunte tudo que você precisa decidir e que eu ainda não disse — espessura, se tem fundo, se as prateleiras encaixam ou apoiam, se tem pés. Use uma ferramenta gratuita e aberta e pergunte antes de instalar qualquer coisa. Faça o modelo de um jeito que eu possa depois mudar as medidas sem refazer tudo. Quando terminar, me diga como abro o arquivo para girar o objeto e como medir as distâncias dentro do programa.</pre><button data-copiar="p0">Copiar o pedido</button></div><div class="box"><p class="rot">Segundo pedido</p><pre id="p1">Mude a largura para cem centímetros e acrescente mais uma prateleira, mantendo os espaçamentos iguais entre elas. Não mude mais nada.</pre><button data-copiar="p1">Copiar o pedido</button></div>
+<p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
 <h2>Passos</h2>
 <ol><li>Abra o agente local e cole o pedido do repositório.</li><li>Responda às perguntas que ele fizer antes de começar — espessura, se tem fundo, se as prateleiras encaixam ou apoiam, se tem pés. Repare em quantas você não tinha pensado.</li><li>Autorize a instalação da ferramenta de modelagem quando ele pedir.</li><li>Abra o arquivo e gire o objeto: olhe por baixo, por trás e de lado.</li><li>Meça a largura total dentro do programa e confirme que dá oitenta centímetros.</li><li>Cole o segundo pedido, que muda a largura para cem e acrescenta uma prateleira.</li><li>Abra de novo, gire e meça outra vez.</li></ol>
+
+<h2 id="pedido">O pedido</h2>
+<p>Toque no botão e cole na conversa com o agente.</p>
+<div class="box"><p class="rot">Primeiro pedido</p><pre id="p0">Não sei nada de projeto nem de modelagem 3D. Quero um modelo de uma estante de livros com oitenta centímetros de largura, cento e vinte de altura e trinta de profundidade, com três prateleiras. Antes de fazer, me pergunte tudo que você precisa decidir e que eu ainda não disse — espessura, se tem fundo, se as prateleiras encaixam ou apoiam, se tem pés. Use uma ferramenta gratuita e aberta e pergunte antes de instalar qualquer coisa. Faça o modelo de um jeito que eu possa depois mudar as medidas sem refazer tudo. Quando terminar, me diga como abro o arquivo para girar o objeto e como medir as distâncias dentro do programa.</pre><button data-copiar="p0">Copiar o pedido</button></div><div class="box"><p class="rot">Segundo pedido</p><pre id="p1">Mude a largura para cem centímetros e acrescente mais uma prateleira, mantendo os espaçamentos iguais entre elas. Não mude mais nada.</pre><button data-copiar="p1">Copiar o pedido</button></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

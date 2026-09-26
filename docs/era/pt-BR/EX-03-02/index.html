@@ -29,6 +29,7 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
   footer { margin-top:1.2rem; padding-top:1rem;
@@ -55,12 +56,14 @@
 <h2>O que você precisa ter</h2>
 <p>O agente local que você preparou no capítulo anterior, e uma pasta com fotos suas. Não precisa ser a maior — comece com algumas centenas.</p>
 
-<h2>O pedido</h2>
-<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Não sei programar. Quero ver as fotos de uma pasta minha organizadas por mês, no navegador, sem que nada saia do meu computador. Encontrei este projeto: [endereço do projeto galeria]. Leia o projeto e me explique em linguagem comum o que ele faz. Depois me diga o que é preciso instalar para rodá-lo aqui e pergunte antes de instalar qualquer coisa. Trabalhe só na pasta que eu indicar, não envie nada para fora e não modifique minhas fotos originais. Quando estiver rodando, me diga o endereço para eu abrir no navegador. No fim, me diga o que você instalou e como eu removo, se quiser.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
 <h2>Passos</h2>
 <ol><li>Abra o agente local.</li><li>Pegue o pedido no repositório e cole, trocando apenas o caminho da pasta de fotos pelo seu.</li><li>Quando ele explicar o projeto, pergunte quais arquivos ele abriu de fato e o que não conseguiu verificar.</li><li>Quando ele pedir para instalar algo, leia o pedido antes de aceitar. Se não souber avaliar, pergunte para que serve e o que acontece se você não instalar.</li><li>Se algo falhar, não conserte nada: cole a mensagem inteira e deixe que ele tente de novo. Anote quantas tentativas foram necessárias.</li><li>Abra no navegador o endereço que ele indicar.</li><li>Peça uma mudança — fotos maiores, ordem invertida, outro título — e veja a tela responder.</li><li>Antes de fechar, pergunte o que exatamente foi instalado na sua máquina e como remover.</li></ol>
+
+<h2 id="pedido">O pedido</h2>
+<p>Toque no botão e cole na conversa com o agente.</p>
+<div class="box"><pre id="p0">Não sei programar. Quero ver as fotos de uma pasta minha organizadas por mês, no navegador, sem que nada saia do meu computador. Encontrei este projeto: [endereço do projeto galeria]. Leia o projeto e me explique em linguagem comum o que ele faz. Depois me diga o que é preciso instalar para rodá-lo aqui e pergunte antes de instalar qualquer coisa. Trabalhe só na pasta que eu indicar, não envie nada para fora e não modifique minhas fotos originais. Quando estiver rodando, me diga o endereço para eu abrir no navegador. No fim, me diga o que você instalou e como eu removo, se quiser.</pre><button data-copiar="p0">Copiar o pedido</button></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

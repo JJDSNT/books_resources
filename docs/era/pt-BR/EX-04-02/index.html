@@ -29,6 +29,7 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
   footer { margin-top:1.2rem; padding-top:1rem;
@@ -55,12 +56,14 @@
 <h2>O que você precisa ter</h2>
 <p>O agente local, o programa do capítulo anterior e uma conta gratuita no provedor. Cerca de quarenta minutos. Alguém para mandar o endereço no fim.</p>
 
-<h2>O pedido</h2>
-<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Não sei programar nem entendo de servidor. Quero que este programa que está na minha máquina fique disponível num endereço na internet, que eu possa mandar para outra pessoa abrir. Já criei uma conta gratuita na Netlify — use ela, e fique no plano gratuito. Antes de qualquer coisa, me explique em linguagem comum o que você vai fazer e o que vai precisar da minha conta. Não contrate nada, não mude de plano e não compre recurso nenhum sem me perguntar antes — se esbarrar em algum limite, pare e me conte em vez de resolver pagando. Quando terminar, me diga o endereço, onde eu leio os registros de erro, onde eu vejo quanto da cota gratuita estou usando, e como eu apago tudo isto depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
 <h2>Passos</h2>
 <ol><li>Crie a conta no provedor pelo navegador. Não é pedido cartão. Se um dia passar a ser, pare e leia com atenção antes de continuar — este exercício não precisa de plano pago.</li><li>Abra o agente local na pasta do programa e cole o pedido.</li><li>Quando ele pedir autorização para conectar-se à sua conta, leia o que está sendo autorizado.</li><li>Deixe implantar e abra o endereço que ele devolver.</li><li>Mande o endereço para alguém e peça que a pessoa abra no celular dela.</li><li>Pergunte ao agente onde se lê o log e onde se vê o consumo da cota.</li><li>Pergunte como apagar o projeto — e, se era só um teste, apague.</li></ol>
+
+<h2 id="pedido">O pedido</h2>
+<p>Toque no botão e cole na conversa com o agente.</p>
+<div class="box"><pre id="p0">Não sei programar nem entendo de servidor. Quero que este programa que está na minha máquina fique disponível num endereço na internet, que eu possa mandar para outra pessoa abrir. Já criei uma conta gratuita na Netlify — use ela, e fique no plano gratuito. Antes de qualquer coisa, me explique em linguagem comum o que você vai fazer e o que vai precisar da minha conta. Não contrate nada, não mude de plano e não compre recurso nenhum sem me perguntar antes — se esbarrar em algum limite, pare e me conte em vez de resolver pagando. Quando terminar, me diga o endereço, onde eu leio os registros de erro, onde eu vejo quanto da cota gratuita estou usando, e como eu apago tudo isto depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

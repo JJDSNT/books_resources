@@ -29,6 +29,7 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
+  .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
   footer { margin-top:1.2rem; padding-top:1rem;
@@ -55,12 +56,14 @@
 <h2>O que você precisa ter</h2>
 <p>O agente local que você preparou. Cerca de uma hora, com folga. Fones ou caixas de som.</p>
 
-<h2>O pedido</h2>
-<p>Toque no botão, cole na conversa com o agente e siga os passos.</p>
-<div class="box"><pre id="p0">Quero uma sequência audiovisual de quinze segundos, sem falas: um café pequeno num dia de chuva, com sensação de abrigo. Três planos. Não sei nada de produção audiovisual e quero acompanhar cada etapa. Comece pelo roteiro e pela divisão em planos, em texto, e me mostre antes de continuar. Depois escreva a descrição fixa de tudo que aparece em mais de um plano, para os três combinarem entre si. Pare e me mostre antes de gerar qualquer imagem, pare de novo antes de animar e pare antes de montar. Use apenas ferramentas gratuitas que rodem nesta máquina; se o que der para fazer aqui for um animatic e não um vídeo gerado, me diga isso com clareza em vez de tentar disfarçar. No fim, me diga como abrir o arquivo.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+<p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
 <h2>Passos</h2>
 <ol><li>Abra o agente local numa pasta nova e cole o pedido do repositório.</li><li>Leia o roteiro e a divisão em três planos. Corrija o que não for o que você imaginou, antes de qualquer imagem existir.</li><li>Confira a lista de descrições fixas — o que aparece em mais de um plano e precisa se repetir igual. É a etapa que você teria pulado sozinho.</li><li>Aprove as imagens de referência, uma por plano, antes de qualquer animação.</li><li>Aprove o movimento de um plano só, o mais simples, antes de comprometer os outros dois.</li><li>Deixe montar, com som.</li><li>Abra o arquivo e assista.</li></ol>
+
+<h2 id="pedido">O pedido</h2>
+<p>Toque no botão e cole na conversa com o agente.</p>
+<div class="box"><pre id="p0">Quero uma sequência audiovisual de quinze segundos, sem falas: um café pequeno num dia de chuva, com sensação de abrigo. Três planos. Não sei nada de produção audiovisual e quero acompanhar cada etapa. Comece pelo roteiro e pela divisão em planos, em texto, e me mostre antes de continuar. Depois escreva a descrição fixa de tudo que aparece em mais de um plano, para os três combinarem entre si. Pare e me mostre antes de gerar qualquer imagem, pare de novo antes de animar e pare antes de montar. Use apenas ferramentas gratuitas que rodem nesta máquina; se o que der para fazer aqui for um animatic e não um vídeo gerado, me diga isso com clareza em vez de tentar disfarçar. No fim, me diga como abrir o arquivo.</pre><button data-copiar="p0">Copiar o pedido</button></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>
