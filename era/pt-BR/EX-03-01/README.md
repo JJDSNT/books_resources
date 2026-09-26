@@ -22,6 +22,10 @@ Um agente de conversa na web, sem instalar nada. Cerca de trinta minutos. Paciê
 6. Abra o agente local e peça a coisa mais simples possível: que ele diga em que pasta está trabalhando agora.
 7. Anote como desfazer tudo, caso um dia queira.
 
+## Antes de começar
+
+- [Preparar a maquina](preparar-a-maquina.md)
+
 ## O pedido
 
 Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-03-01/).
