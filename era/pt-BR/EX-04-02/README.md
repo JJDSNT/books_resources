@@ -14,13 +14,17 @@ O agente local, o programa do capítulo anterior e uma conta gratuita no provedo
 
 ## Passos
 
-1. Crie a conta no provedor pelo navegador. Não é pedido cartão. Se um dia passar a ser, pare e leia com atenção antes de continuar — este exercício não precisa de plano pago.
+1. Crie a conta em netlify.com, no navegador, com e-mail e senha. Não é pedido cartão. Se um dia passar a ser, pare e leia com atenção — este exercício não precisa de plano pago. Essa parte é sua; o agente não faz por você.
 2. Abra o agente local na pasta do programa e cole o pedido.
-3. Quando ele pedir autorização para conectar-se à sua conta, leia o que está sendo autorizado.
+3. Em algum momento uma janela do navegador vai se abrir pedindo que você autorize o acesso à sua conta. Leia antes de clicar. Se em vez disso o agente pedir a sua senha, recuse — não é assim que funciona.
 4. Deixe implantar e abra o endereço que ele devolver.
 5. Mande o endereço para alguém e peça que a pessoa abra no celular dela.
 6. Pergunte ao agente onde se lê o log e onde se vê o consumo da cota.
 7. Pergunte como apagar o projeto — e, se era só um teste, apague.
+
+## Antes de começar
+
+- [Conta e autorizacao](conta-e-autorizacao.md)
 
 ## O pedido
 
