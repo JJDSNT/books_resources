@@ -10,7 +10,7 @@ Três agentes com papéis diferentes produzirem partes de um plano, descobrirem 
 
 ## O que você precisa ter
 
-O agente local e o Ollama que você instalou no capítulo anterior. Cerca de quarenta minutos.
+O agente local e o modelo que você instalou no capítulo anterior — aqui ele precisa ser **maior que o do capítulo anterior**, porque desta vez há contas a fazer. Reserve cerca de 4 GB de memória e quarenta minutos.
 
 ## Passos
 
@@ -26,7 +26,7 @@ O agente local e o Ollama que você instalou no capítulo anterior. Cerca de qua
 Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-07-02/).
 
 ```
-Quero montar na minha máquina, de graça e offline, usando o Google ADK e o Ollama que já está instalado aqui, uma pequena equipe de três agentes que planeje uma feira de ciências fictícia de uma escola. Um cuida da programação, outro da divulgação e outro do orçamento. Use o modelo que já está instalado aqui. Quero ver o que cada um produziu separadamente e depois um plano consolidado. Importante: quero ver o que acontece quando as partes não combinam entre si — não esconda os conflitos, mostre como eles aparecem e como são resolvidos. Explique em linguagem comum o papel de cada agente e o que eles compartilham entre si. No fim, me diga como rodo de novo e como removo tudo.
+Quero montar na minha máquina, de graça e offline, usando o Google ADK e o modelo local que já está instalado aqui, uma pequena equipe de três agentes que planeje uma feira de ciências fictícia de uma escola. Um cuida da programação, outro da divulgação e outro do orçamento — e o orçamento total é apertado de propósito: R$ 300. Três coisas importantes, porque o modelo é pequeno e sem elas a equipe não funciona: cada agente precisa ser proibido de pedir mais detalhes e obrigado a decidir sozinho, inventando valores plausíveis; cada agente precisa ter um formato de resposta próprio e literal, diferente dos outros, senão ele repete o que o colega disse em vez de fazer a parte dele; e o agente do orçamento precisa somar os custos e comparar com o teto. Quero ver o que cada um produziu separadamente e depois um plano consolidado. Não esconda os conflitos: se as partes não couberem no orçamento, mostre isso. Explique em linguagem comum o papel de cada agente e o que eles compartilham entre si. No fim, me diga como rodo de novo e como removo tudo.
 ```
 
 ---
