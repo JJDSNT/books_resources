@@ -46,4 +46,4 @@ Ainda estão repetindo o colega. Dê a cada agente um formato de resposta própr
 
 ---
 
-Verificado em 2026-09-26. Ferramentas e serviços mudam: se algo não bater com o que você vê na tela, confie na tela e nos diga.
+Verificado em 2026-09-27. Ferramentas e serviços mudam: se algo não bater com o que você vê na tela, confie na tela e nos diga.

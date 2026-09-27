@@ -31,4 +31,4 @@ Quero acrescentar três botões ao programa que já está publicado na Netlify: 
 
 ---
 
-Verificado em 2026-09-26. Ferramentas e serviços mudam: se algo não bater com o que você vê na tela, confie na tela e nos diga.
+Verificado em 2026-09-27. Ferramentas e serviços mudam: se algo não bater com o que você vê na tela, confie na tela e nos diga.
