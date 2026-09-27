@@ -24,7 +24,7 @@ Um agente de conversa na web, sem instalar nada. Cerca de trinta minutos. Paciê
 
 ## Antes de começar
 
-- [Preparar a maquina](preparar-a-maquina.md)
+- [Preparar a máquina](preparar-a-maquina.md)
 
 ## O pedido
 

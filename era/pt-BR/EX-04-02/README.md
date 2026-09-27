@@ -24,7 +24,7 @@ O agente local, o programa do capítulo anterior e uma conta gratuita no provedo
 
 ## Antes de começar
 
-- [Conta e autorizacao](conta-e-autorizacao.md)
+- [Criar a conta e autorizar o agente](conta-e-autorizacao.md)
 
 ## O pedido
 
