@@ -14,6 +14,13 @@ O programa que você mandou escrever sair do seu computador e passar a existir n
 
 O agente local, o programa do capítulo anterior e uma conta gratuita no provedor. Cerca de quarenta minutos. Alguém para mandar o endereço no fim.
 
+
+## Antes de começar
+
+O agente não faz esta parte por você:
+
+- [Criar a conta e autorizar o agente](../conta-e-autorizacao.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/conta-e-autorizacao/)
+
 ## Passos
 
 1. Crie a conta em netlify.com, no navegador, com e-mail e senha. Não é pedido cartão. Se um dia passar a ser, pare e leia com atenção — este exercício não precisa de plano pago. Essa parte é sua; o agente não faz por você.
@@ -24,12 +31,6 @@ O agente local, o programa do capítulo anterior e uma conta gratuita no provedo
 6. Pergunte ao agente onde se lê o log e onde se vê o consumo da cota.
 7. Pergunte como apagar o projeto — e, se era só um teste, apague.
 
-## Antes de começar
-
-Passo a passo verificado, mantido fora do livro para poder ser corrigido:
-
-- [Criar a conta e autorizar o agente](conta-e-autorizacao.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-02/conta-e-autorizacao/)
-
 ## O pedido
 
 Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [página com botão de copiar](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-02/).
@@ -37,6 +38,7 @@ Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [págin
 ```
 Não sei programar nem entendo de servidor. Quero que este programa que está na minha máquina fique disponível num endereço na internet, que eu possa mandar para outra pessoa abrir. Já criei uma conta gratuita na Netlify — use ela, e fique no plano gratuito. Antes de qualquer coisa, me explique em linguagem comum o que você vai fazer e o que vai precisar da minha conta. Não contrate nada, não mude de plano e não compre recurso nenhum sem me perguntar antes — se esbarrar em algum limite, pare e me conte em vez de resolver pagando. Quando terminar, me diga o endereço, onde eu leio os registros de erro, onde eu vejo quanto da cota gratuita estou usando, e como eu apago tudo isto depois.
 ```
+
 
 ---
 

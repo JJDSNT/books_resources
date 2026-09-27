@@ -4,6 +4,12 @@ Materiais dos exercícios de **A Era dos Agentes**.
 
 > **Prefere no celular?** Tudo isto também está em [jjdsnt.github.io/books_resources/era/pt-BR/](https://jjdsnt.github.io/books_resources/era/pt-BR/), com botão de copiar em cada pedido.
 
+## Os casos especiais
+
+Em cinco pontos a sua interface deixa de ser só o agente: **WSL**, **GitHub** e **Netlify** aparecem no caminho e pedem coisas diferentes de você; o **VS Code** e alguns **comandos do terminal** servem para olhar o que ele fez.
+
+**→ [Os casos especiais](casos-especiais.md)** — cinco páginas curtas, mantidas fora do livro para poderem ser corrigidas.
+
 ## Como usar
 
 Cada exercício do livro traz um código QR. Aponte a câmera do celular e a página abre com o pedido e um **botão de copiar** — você não precisa digitar nada. Se preferir, os mesmos pedidos estão aqui, em `pedido.txt` dentro de cada pasta.

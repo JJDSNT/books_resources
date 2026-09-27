@@ -2,6 +2,22 @@
   "slug": "era",
   "titulo": "A Era dos Agentes",
   "subtitulo": "Uma introdução à inteligência artificial agentiva",
+  "_gerados": {
+    "pt-BR": [
+      "era/pt-BR/casos-especiais.md",
+      "docs/era/pt-BR/casos-especiais",
+      "era/pt-BR/comandos-basicos.md",
+      "docs/era/pt-BR/comandos-basicos",
+      "era/pt-BR/conta-e-autorizacao.md",
+      "docs/era/pt-BR/conta-e-autorizacao",
+      "era/pt-BR/conta-no-github.md",
+      "docs/era/pt-BR/conta-no-github",
+      "era/pt-BR/preparar-a-maquina.md",
+      "docs/era/pt-BR/preparar-a-maquina",
+      "era/pt-BR/ver-os-arquivos.md",
+      "docs/era/pt-BR/ver-os-arquivos"
+    ]
+  },
   "autor": "Jaime Dias",
   "idiomas": [
     "pt-BR"

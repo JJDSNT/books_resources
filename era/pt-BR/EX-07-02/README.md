@@ -14,6 +14,7 @@ Uma equipe de agentes falhar de um jeito específico, e voltar a funcionar quand
 
 O agente local e um modelo maior que o do capítulo anterior; reserve cerca de 4 GB de memória. Uma hora, contando as três rodadas.
 
+
 ## Passos
 
 1. Abra o agente local numa pasta nova e cole o primeiro pedido.
@@ -45,6 +46,7 @@ Os três agentes disseram praticamente a mesma coisa. Cada um deve fazer só a p
 ```
 Ainda estão repetindo o colega. Dê a cada agente um formato de resposta próprio e literal, diferente dos outros: o da programação responde com dias, apresentações por dia e se precisa de palco; o da divulgação com meios, número de datas e custo estimado; o do orçamento com total estimado, se cabe no teto, qual item cortar e por quê. Proíba cada um de repetir o texto dos colegas. Rode de novo.
 ```
+
 
 ---
 

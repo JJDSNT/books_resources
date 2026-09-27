@@ -14,6 +14,7 @@ Um agente que você nem instalou ainda conduzindo você, passo a passo, pela pre
 
 Um agente de conversa na web, sem instalar nada. Cerca de trinta minutos. Paciência com a possibilidade de algo dar errado no meio — e vai dar.
 
+
 ## Passos
 
 1. Abra um agente de conversa na web.
@@ -23,12 +24,6 @@ Um agente de conversa na web, sem instalar nada. Cerca de trinta minutos. Paciê
 5. Instale o agente local que você escolher. Codex é a sugestão deste livro pela possibilidade de uso gratuito; Claude Code, Gemini CLI e OpenCode fazem o mesmo trabalho.
 6. Abra o agente local e peça a coisa mais simples possível: que ele diga em que pasta está trabalhando agora.
 7. Anote como desfazer tudo, caso um dia queira.
-
-## Antes de começar
-
-Passo a passo verificado, mantido fora do livro para poder ser corrigido:
-
-- [Preparar a máquina](preparar-a-maquina.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-03-01/preparar-a-maquina/)
 
 ## O pedido
 
@@ -51,6 +46,19 @@ Uso macOS e nunca usei terminal. Confirme se meu terminal já está pronto para 
 ```
 Uso Linux e nunca usei terminal. Confirme se meu terminal já está pronto para rodar um agente de programação localmente e me oriente a instalar um, um passo de cada vez, explicando cada etapa e esperando eu confirmar. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo.
 ```
+
+
+## Se travar
+
+Rede de segurança — não é para ler antes, é para quando precisar:
+
+- [Preparar a máquina](../preparar-a-maquina.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/preparar-a-maquina/)
+
+## Se quiser ir além
+
+Caminho opcional; nenhum exercício precisa disto:
+
+- [Sete comandos, e o que cada um responde](../comandos-basicos.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/comandos-basicos/)
 
 ---
 

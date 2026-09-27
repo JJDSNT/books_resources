@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sete comandos, e o que cada um responde — A Era dos Agentes</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:18px 16px 56px; max-width:44rem;
+    margin-inline:auto; font-family:-apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,sans-serif; line-height:1.6; color:#12202B;
+    background:#FAF8F4; }
+  .volta { font-size:.88rem; margin:0 0 1.4rem; }
+  .subir { margin:2.4rem 0 0; font-size:.92rem; }
+  a { color:#1E8E99; }
+  h1 { font-size:1.5rem; line-height:1.25; color:#12344F; margin:0 0 .6rem; }
+  h2 { font-size:1.12rem; color:#12344F; margin:2rem 0 .5rem; }
+  h3 { font-size:1rem; color:#12344F; margin:1.5rem 0 .4rem; }
+  hr { border:0; border-top:1px solid #DFD8CC; margin:2.2rem 0; }
+  pre { background:#F1EAE0; padding:12px 14px; overflow-x:auto;
+    border-radius:4px; font-size:.88rem; }
+  code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:.9em; }
+  p code, li code { background:#F1EAE0; padding:.1em .35em;
+    border-radius:3px; }
+  blockquote { margin:1.2em 0; padding:.1em 0 .1em .9em;
+    border-left:3px solid #32D9E2; color:#4A5A66; }
+  li { margin:.35rem 0; }
+  footer { margin-top:2.6rem; padding-top:1rem;
+    border-top:1px solid #DFD8CC; font-size:.84rem; color:#6B7780; }
+  @media (prefers-color-scheme: dark) {
+    body { background:#0E1A22; color:#E8E4DC; }
+    h1,h2,h3 { color:#8CE8E7; }
+    pre, p code, li code { background:#1A2730; }
+    blockquote { color:#A9B8C2; }
+  }
+</style>
+<p class="volta"><a href="../">&larr; A Era dos Agentes &mdash; materiais</a></p>
+<p>&lt;!-- exercicios: EX-03-01 --&gt;</p>
+<h1>Sete comandos, e o que cada um responde</h1>
+<p><em>Verificado em 27 de setembro de 2026.</em></p>
+<p><strong>Você não precisa decorar nada disto.</strong> O livro inteiro funciona sem: quem
+digita comandos é o agente, e pedir em português é mais rápido que lembrar de
+sintaxe. Esta página existe porque, depois de instalar o terminal, quase todo
+mundo tem a mesma curiosidade — <em>e se eu quiser olhar sozinho?</em></p>
+<p>O jeito útil de ver um comando não é &quot;o que ele faz&quot;, é <strong>que pergunta ele
+responde</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>A pergunta que ele responde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>pwd</code></td>
+<td>Em que pasta eu estou agora?</td>
+</tr>
+<tr>
+<td><code>ls</code></td>
+<td>O que tem aqui dentro?</td>
+</tr>
+<tr>
+<td><code>ls -l</code></td>
+<td>E com tamanho e data de cada coisa?</td>
+</tr>
+<tr>
+<td><code>cd nome</code></td>
+<td>Como eu entro nessa pasta?</td>
+</tr>
+<tr>
+<td><code>cd ..</code></td>
+<td>Como eu volto uma pasta?</td>
+</tr>
+<tr>
+<td><code>cd ~</code></td>
+<td>Como eu volto para a minha pasta de sempre?</td>
+</tr>
+<tr>
+<td><code>cat arquivo</code></td>
+<td>O que está escrito neste arquivo de texto?</td>
+</tr>
+</tbody>
+</table>
+<p>Note que <code>cd</code> aparece três vezes. Andar entre pastas é quase tudo o que se faz
+num terminal.</p>
+<h2>Ler um caminho</h2>
+<p>Um caminho como <code>/home/jaime/projetos/lista</code> se lê da esquerda para a direita,
+como pastas dentro de pastas — a barra separa uma da outra. Três abreviações
+aparecem o tempo todo:</p>
+<ul>
+<li><code>~</code> — a sua pasta pessoal, a mesma onde o terminal abre</li>
+<li><code>.</code> — <em>aqui</em>, a pasta em que você está neste momento</li>
+<li><code>..</code> — a pasta de cima</li>
+</ul>
+<p>É por isso que <code>code .</code> abre <em>esta</em> pasta, e <code>cd ..</code> sobe uma.</p>
+<h2>O melhor atalho que existe</h2>
+<p>Digite as primeiras letras de um nome e aperte <strong>TAB</strong>. O terminal completa o
+resto. Se houver mais de uma possibilidade, aperte TAB duas vezes e ele mostra
+quais são.</p>
+<p>Isso resolve nome comprido, acento e maiúscula de uma vez — e evita o erro mais
+comum de todos, que é digitar o nome de um arquivo errado por uma letra.</p>
+<h2>Dois que valem mais que os sete</h2>
+<p><strong><code>Ctrl+C</code></strong> para o que está rodando. Quando alguma coisa travou, ou está
+escrevendo sem parar, ou você simplesmente mudou de ideia: <code>Ctrl+C</code>. Não é o
+copiar do Windows — no terminal, essa combinação quer dizer <em>pare</em>.</p>
+<p><strong><code>clear</code></strong> limpa a tela. Depois de uma conversa longa com o agente, ajuda mais
+do que parece.</p>
+<h2>O que esta página não vai te ensinar</h2>
+<p>Apagar arquivos pelo terminal. Existe comando para isso, e ele <strong>não manda nada
+para a lixeira</strong> — o que sai, sai. Se você quiser apagar algo, peça ao agente e
+confira o que ele propôs antes de autorizar. É o mesmo cuidado do resto do
+livro, aplicado ao lugar onde ele custa mais caro.</p>
+<p>E, de modo geral: <strong>não cole um comando que você não entende</strong> só porque ele
+apareceu numa resposta ou num site. Se foi o agente que sugeriu, a pergunta
+<em>&quot;o que esse comando faz, exatamente?&quot;</em> leva dois segundos e é sempre bem
+recebida.</p>
+<p class="subir"><a href="../casos-especiais/">← Os casos especiais</a></p>
+<footer>
+  <a href="../">Todos os exercícios</a> &middot;
+  <a href="https://github.com/JJDSNT/books_resources/blob/main/era/pt-BR/comandos-basicos.md">Ver o texto no repositório</a>
+</footer>

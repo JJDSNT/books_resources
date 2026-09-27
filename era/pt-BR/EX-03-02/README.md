@@ -14,6 +14,7 @@ Um programa que você não escreveu, que você não saberia instalar, rodando no
 
 O agente local que você preparou no capítulo anterior, e uma pasta com fotos suas. Não precisa ser a maior — comece com algumas centenas.
 
+
 ## Passos
 
 1. Abra o agente local.
@@ -32,6 +33,13 @@ Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [págin
 ```
 Não sei programar. Quero ver as fotos de uma pasta minha organizadas por mês, no navegador, sem que nada saia do meu computador. Encontrei este projeto: [endereço do projeto galeria]. Leia o projeto e me explique em linguagem comum o que ele faz. Depois me diga o que é preciso instalar para rodá-lo aqui e pergunte antes de instalar qualquer coisa. Trabalhe só na pasta que eu indicar, não envie nada para fora e não modifique minhas fotos originais. Quando estiver rodando, me diga o endereço para eu abrir no navegador. No fim, me diga o que você instalou e como eu removo, se quiser.
 ```
+
+
+## Se quiser ir além
+
+Caminho opcional; nenhum exercício precisa disto:
+
+- [Ter uma conta no GitHub](../conta-no-github.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/conta-no-github/)
 
 ---
 

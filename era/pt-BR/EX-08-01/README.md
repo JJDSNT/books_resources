@@ -14,6 +14,7 @@ Um agente transformar uma pergunta malfeita numa pergunta respondível, procurar
 
 Um agente com acesso à web. Cerca de trinta minutos. Disposição para clicar num link e ler um resumo.
 
+
 ## Passos
 
 1. Abra um agente com acesso à web e cole o pedido do repositório.
@@ -31,6 +32,7 @@ Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [págin
 ```
 Quero investigar se ouvir música durante o estudo ajuda ou atrapalha a aprendizagem. Antes de responder, separe a pergunta nas variáveis que importam: tipo de música (com letra ou sem), tipo de tarefa, e o que está sendo medido. Procure estudos reais e dê prioridade a revisões sistemáticas, se existirem. Cite apenas trabalhos que você conseguiu abrir de fato, com link, e me diga explicitamente quais você não conseguiu verificar. Separe o que é achado consistente entre vários estudos do que aparece em um estudo só. Depois de apresentar sua conclusão, liste as evidências que a contradizem. Se você não conseguir pesquisar de verdade neste ambiente, diga isso em vez de inventar referências.
 ```
+
 
 ---
 

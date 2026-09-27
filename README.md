@@ -10,8 +10,9 @@ verified walkthroughs and example projects.*
 ### **[jjdsnt.github.io/books_resources](https://jjdsnt.github.io/books_resources)**
 
 É a mesma coisa que está neste repositório, **melhor no celular**: cada
-exercício com o pedido num botão de copiar, e os passo a passo de preparação
-em página própria. É para lá que os códigos QR do livro levam.
+exercício com o pedido num botão de copiar, e os casos especiais — WSL, GitHub,
+Netlify, VS Code, comandos do terminal — cada um em página própria. É para lá
+que os códigos QR do livro levam.
 
 Este repositório serve para navegar os arquivos, propor correção e acompanhar
 mudanças. *This repository is for browsing files, proposing fixes and tracking

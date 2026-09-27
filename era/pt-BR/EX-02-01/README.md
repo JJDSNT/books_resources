@@ -14,6 +14,7 @@ Uma ferramenta de conversa preencher, sozinha e sem avisar, informações que vo
 
 Qualquer ferramenta de conversa que você já use. Nada para instalar. Dez minutos.
 
+
 ## Passos
 
 1. Abra a ferramenta de conversa que você já usa.
@@ -38,6 +39,7 @@ Crie um anúncio curto para uma biblioteca comunitária que abrirá no próximo 
 ```
 Reescreva sem inventar nome, endereço, data, horário ou atividades. Onde faltar informação, deixe o espaço marcado e me diga o que você precisaria saber.
 ```
+
 
 ---
 

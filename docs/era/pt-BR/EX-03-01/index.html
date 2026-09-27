@@ -29,12 +29,15 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
-  .antes { background:#EAF6F7; border-left:4px solid #32D9E2;
-    padding:12px 14px; margin:1.3rem 0 0; }
-  .antes p { margin:0 0 .35rem; font-size:.9rem; }
-  .antes ul { margin:0; padding-left:1.1rem; }
-  .antes li { margin:.25rem 0; font-size:.94rem; }
-  @media (prefers-color-scheme: dark) { .antes { background:#14262B; } }
+  .antes, .apoio { border-left:4px solid #32D9E2; padding:12px 14px; }
+  .antes { background:#EAF6F7; margin:1.3rem 0 0; }
+  .apoio { background:#F2F0EC; border-left-color:#6B7780;
+    margin:1.4rem 0 0; }
+  .antes p, .apoio p { margin:0 0 .35rem; font-size:.9rem; }
+  .antes ul, .apoio ul { margin:0; padding-left:1.1rem; }
+  .antes li, .apoio li { margin:.25rem 0; font-size:.94rem; }
+  @media (prefers-color-scheme: dark) {
+    .antes { background:#14262B; } .apoio { background:#1C232A; } }
   .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
@@ -61,7 +64,7 @@
 
 <h2>O que você precisa ter</h2>
 <p>Um agente de conversa na web, sem instalar nada. Cerca de trinta minutos. Paciência com a possibilidade de algo dar errado no meio — e vai dar.</p>
-<div class="antes"><p><strong>Antes de começar</strong> — passo a passo verificado, mantido fora do livro para poder ser corrigido:</p><ul><li><a href="preparar-a-maquina/">Preparar a máquina</a></li></ul></div>
+
 
 <p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
@@ -71,6 +74,7 @@
 <h2 id="pedido">O pedido</h2>
 <p>Toque no botão e cole na conversa com o agente.</p>
 <div class="box"><p class="rot">Windows</p><pre id="p0">Uso Windows e nunca usei terminal. Quero deixar meu computador pronto para rodar um agente de programação localmente, o que pelo que entendi exige instalar o WSL. Me conduza um passo de cada vez: diga o que devo fazer, explique em uma frase o que aquele passo faz e o que eu deveria ver na tela, e espere eu confirmar antes de passar ao próximo. Se algo falhar, vou colar a mensagem inteira. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo, se algum dia quiser.</pre><button data-copiar="p0">Copiar o pedido</button></div><div class="box"><p class="rot">macOS</p><pre id="p1">Uso macOS e nunca usei terminal. Confirme se meu terminal já está pronto para rodar um agente de programação localmente e me oriente a instalar um, um passo de cada vez, explicando cada etapa e esperando eu confirmar. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo.</pre><button data-copiar="p1">Copiar o pedido</button></div><div class="box"><p class="rot">Linux</p><pre id="p2">Uso Linux e nunca usei terminal. Confirme se meu terminal já está pronto para rodar um agente de programação localmente e me oriente a instalar um, um passo de cada vez, explicando cada etapa e esperando eu confirmar. No fim, me diga como confirmo que ficou funcionando e como desfaço tudo.</pre><button data-copiar="p2">Copiar o pedido</button></div>
+<div class="apoio"><p><strong>Se travar</strong> — rede de segurança — não é para ler antes, é para quando precisar:</p><ul><li><a href="../preparar-a-maquina/">Preparar a máquina</a></li></ul></div><div class="apoio"><p><strong>Se quiser ir além</strong> — caminho opcional; nenhum exercício precisa disto:</p><ul><li><a href="../comandos-basicos/">Sete comandos, e o que cada um responde</a></li></ul></div>
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

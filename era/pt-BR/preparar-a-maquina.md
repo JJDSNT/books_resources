@@ -1,3 +1,4 @@
+<!-- exercicios: EX-03-01 -->
 # Preparar a máquina
 
 *Verificado em 27 de setembro de 2026, com WSL 2.9.3 e Ubuntu 24.04 LTS.
@@ -8,9 +9,16 @@ informação de hoje.*
 Esta página mora fora do livro de propósito: um livro impresso não se corrige,
 e esta página sim.
 
-**Você não precisa dela para fazer o exercício.** O agente conduz. Ela é rede
-de segurança: para quando ele se perder, para conferir antes de autorizar
-alguma coisa, ou para saber como desfazer.
+**Não leia isto antes de fazer o exercício.** O exercício é justamente pedir ao
+agente que te conduza pela instalação — e essa é a experiência que o capítulo
+quer te dar. Se você seguir o manual primeiro, o exercício perde a graça e você
+perde a descoberta.
+
+Esta página é **rede de segurança**, para três momentos:
+
+- o agente se perdeu e você quer conferir onde está;
+- ele pediu autorização para algo e você quer entender o que é antes de aceitar;
+- você quer desfazer o que foi instalado.
 
 ---
 
@@ -170,3 +178,7 @@ Abra o agente local e peça a coisa mais simples possível:
 
 Se vier uma resposta que corresponde ao seu computador — algo como
 `/home/seu-usuário` —, a porta está aberta.
+
+---
+
+← [Os casos especiais](casos-especiais.md)

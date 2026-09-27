@@ -1,3 +1,4 @@
+<!-- exercicios: EX-04-02 -->
 # Criar a conta e autorizar o agente
 
 *Verificado em 26 de setembro de 2026. Telas de serviço mudam; se o que você
@@ -51,3 +52,7 @@ projeto, em **Site configuration → Danger zone**.
   peça ao agente que tente de novo.
 - **Deu erro de permissão na publicação.** Provavelmente a autorização não
   chegou a ser concluída. Peça ao agente que refaça a conexão.
+
+---
+
+← [Os casos especiais](casos-especiais.md)

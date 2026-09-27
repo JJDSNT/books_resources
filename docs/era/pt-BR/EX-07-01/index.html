@@ -29,12 +29,15 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
-  .antes { background:#EAF6F7; border-left:4px solid #32D9E2;
-    padding:12px 14px; margin:1.3rem 0 0; }
-  .antes p { margin:0 0 .35rem; font-size:.9rem; }
-  .antes ul { margin:0; padding-left:1.1rem; }
-  .antes li { margin:.25rem 0; font-size:.94rem; }
-  @media (prefers-color-scheme: dark) { .antes { background:#14262B; } }
+  .antes, .apoio { border-left:4px solid #32D9E2; padding:12px 14px; }
+  .antes { background:#EAF6F7; margin:1.3rem 0 0; }
+  .apoio { background:#F2F0EC; border-left-color:#6B7780;
+    margin:1.4rem 0 0; }
+  .antes p, .apoio p { margin:0 0 .35rem; font-size:.9rem; }
+  .antes ul, .apoio ul { margin:0; padding-left:1.1rem; }
+  .antes li, .apoio li { margin:.25rem 0; font-size:.94rem; }
+  @media (prefers-color-scheme: dark) {
+    .antes { background:#14262B; } .apoio { background:#1C232A; } }
   .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
@@ -71,6 +74,7 @@
 <h2 id="pedido">O pedido</h2>
 <p>Toque no botão e cole na conversa com o agente.</p>
 <div class="box"><pre id="p0">Não sei programar. Quero montar na minha máquina um processo pequeno e fictício de uma papelaria, que funcione inteiramente offline e de graça, usando Ollama com um modelo pequeno e LangGraph para organizar as etapas. Ele deve: receber um pedido escrito em linguagem comum; extrair produto, quantidade e prazo; consultar um arquivo de estoque fictício que você vai criar; aplicar a regra de que pedidos acima de cem unidades precisam da minha aprovação; parar e esperar minha decisão, guardando o estado de forma que eu possa fechar tudo e retomar depois; e então gerar uma resposta ao cliente que reflita o que aconteceu, inclusive se eu recusar. Antes de instalar qualquer coisa, me diga o que é e quanto vai ocupar, e pergunte. Explique em linguagem comum o que cada etapa faz. No fim, me diga como eu rodo, como eu aprovo, como eu vejo o estado guardado e como removo tudo depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

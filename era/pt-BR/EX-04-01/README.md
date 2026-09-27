@@ -14,6 +14,7 @@ Um agente propor um plano, escrever um programa a partir da sua descrição e ve
 
 O agente local que você preparou. Cerca de vinte minutos.
 
+
 ## Passos
 
 1. Abra o agente local numa pasta nova.
@@ -29,6 +30,13 @@ Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [págin
 ```
 Não sei programar. Quero um programa simples de lista de tarefas que eu abra no navegador. Preciso que ele faça exatamente isto: eu anoto uma tarefa e ela aparece numa lista; eu marco como concluída e ela fica marcada; eu fecho e abro de novo e tudo continua lá. Mantenha o mais simples possível — nada de instalar coisas que não sejam necessárias. Antes de escrever, me diga em linguagem comum o que você pretende fazer. Quando terminar, me diga como abrir e como usar.
 ```
+
+
+## Se quiser ir além
+
+Caminho opcional; nenhum exercício precisa disto:
+
+- [Ver os arquivos que o agente criou](../ver-os-arquivos.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/ver-os-arquivos/)
 
 ---
 

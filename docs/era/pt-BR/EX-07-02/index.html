@@ -29,12 +29,15 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
-  .antes { background:#EAF6F7; border-left:4px solid #32D9E2;
-    padding:12px 14px; margin:1.3rem 0 0; }
-  .antes p { margin:0 0 .35rem; font-size:.9rem; }
-  .antes ul { margin:0; padding-left:1.1rem; }
-  .antes li { margin:.25rem 0; font-size:.94rem; }
-  @media (prefers-color-scheme: dark) { .antes { background:#14262B; } }
+  .antes, .apoio { border-left:4px solid #32D9E2; padding:12px 14px; }
+  .antes { background:#EAF6F7; margin:1.3rem 0 0; }
+  .apoio { background:#F2F0EC; border-left-color:#6B7780;
+    margin:1.4rem 0 0; }
+  .antes p, .apoio p { margin:0 0 .35rem; font-size:.9rem; }
+  .antes ul, .apoio ul { margin:0; padding-left:1.1rem; }
+  .antes li, .apoio li { margin:.25rem 0; font-size:.94rem; }
+  @media (prefers-color-scheme: dark) {
+    .antes { background:#14262B; } .apoio { background:#1C232A; } }
   .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
@@ -71,6 +74,7 @@
 <h2 id="pedido">O pedido</h2>
 <p>Toque no botão e cole na conversa com o agente.</p>
 <div class="box"><p class="rot">Primeira rodada — o pedido ingênuo</p><pre id="p0">Quero montar na minha máquina, de graça e offline, usando o Google ADK e o modelo local que já está instalado aqui, uma pequena equipe de três agentes que planeje uma feira de ciências fictícia de uma escola. Um cuida da programação, outro da divulgação e outro do orçamento, que é apertado: R$ 300 no total. Quero ver o que cada um produziu separadamente antes de qualquer consolidação. Explique em linguagem comum o papel de cada agente e o que eles compartilham entre si.</pre><button data-copiar="p0">Copiar o pedido</button></div><div class="box"><p class="rot">Segunda rodada — se os três se repetiram</p><pre id="p1">Os três agentes disseram praticamente a mesma coisa. Cada um deve fazer só a parte dele. Acrescente a cada agente a instrução de que ele nunca peça mais detalhes e decida sozinho, inventando valores plausíveis quando faltar informação. Rode de novo e me mostre os três separadamente.</pre><button data-copiar="p1">Copiar o pedido</button></div><div class="box"><p class="rot">Terceira rodada — se ainda repetem</p><pre id="p2">Ainda estão repetindo o colega. Dê a cada agente um formato de resposta próprio e literal, diferente dos outros: o da programação responde com dias, apresentações por dia e se precisa de palco; o da divulgação com meios, número de datas e custo estimado; o do orçamento com total estimado, se cabe no teto, qual item cortar e por quê. Proíba cada um de repetir o texto dos colegas. Rode de novo.</pre><button data-copiar="p2">Copiar o pedido</button></div>
+
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

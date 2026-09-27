@@ -29,12 +29,15 @@
   button:active { background:#1E8E99; }
   button.ok { background:#1E8E99; }
   ol { padding-left:1.3rem; } li { margin:.4rem 0; }
-  .antes { background:#EAF6F7; border-left:4px solid #32D9E2;
-    padding:12px 14px; margin:1.3rem 0 0; }
-  .antes p { margin:0 0 .35rem; font-size:.9rem; }
-  .antes ul { margin:0; padding-left:1.1rem; }
-  .antes li { margin:.25rem 0; font-size:.94rem; }
-  @media (prefers-color-scheme: dark) { .antes { background:#14262B; } }
+  .antes, .apoio { border-left:4px solid #32D9E2; padding:12px 14px; }
+  .antes { background:#EAF6F7; margin:1.3rem 0 0; }
+  .apoio { background:#F2F0EC; border-left-color:#6B7780;
+    margin:1.4rem 0 0; }
+  .antes p, .apoio p { margin:0 0 .35rem; font-size:.9rem; }
+  .antes ul, .apoio ul { margin:0; padding-left:1.1rem; }
+  .antes li, .apoio li { margin:.25rem 0; font-size:.94rem; }
+  @media (prefers-color-scheme: dark) {
+    .antes { background:#14262B; } .apoio { background:#1C232A; } }
   .atalho { margin:1.4rem 0 0; font-size:.9rem; }
   .nav { margin-top:2.2rem; display:flex; flex-wrap:wrap; gap:.4rem 1.1rem;
     font-size:.9rem; }
@@ -61,7 +64,7 @@
 
 <h2>O que você precisa ter</h2>
 <p>O agente local, o programa do capítulo anterior e uma conta gratuita no provedor. Cerca de quarenta minutos. Alguém para mandar o endereço no fim.</p>
-<div class="antes"><p><strong>Antes de começar</strong> — passo a passo verificado, mantido fora do livro para poder ser corrigido:</p><ul><li><a href="conta-e-autorizacao/">Criar a conta e autorizar o agente</a></li></ul></div>
+<div class="antes"><p><strong>Antes de começar</strong> — o agente não faz esta parte por você:</p><ul><li><a href="../conta-e-autorizacao/">Criar a conta e autorizar o agente</a></li></ul></div>
 
 <p class="atalho"><a href="#pedido">Ir direto para o pedido &darr;</a></p>
 
@@ -71,6 +74,7 @@
 <h2 id="pedido">O pedido</h2>
 <p>Toque no botão e cole na conversa com o agente.</p>
 <div class="box"><pre id="p0">Não sei programar nem entendo de servidor. Quero que este programa que está na minha máquina fique disponível num endereço na internet, que eu possa mandar para outra pessoa abrir. Já criei uma conta gratuita na Netlify — use ela, e fique no plano gratuito. Antes de qualquer coisa, me explique em linguagem comum o que você vai fazer e o que vai precisar da minha conta. Não contrate nada, não mude de plano e não compre recurso nenhum sem me perguntar antes — se esbarrar em algum limite, pare e me conte em vez de resolver pagando. Quando terminar, me diga o endereço, onde eu leio os registros de erro, onde eu vejo quanto da cota gratuita estou usando, e como eu apago tudo isto depois.</pre><button data-copiar="p0">Copiar o pedido</button></div>
+
 
 <nav class="nav">
   <a href="../">Todos os exercícios</a>

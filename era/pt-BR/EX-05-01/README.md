@@ -14,6 +14,7 @@ Uma ideia de uma frase virar um arquivo audiovisual que você abre e assiste, pa
 
 O agente local que você preparou. Cerca de uma hora, com folga. Fones ou caixas de som.
 
+
 ## Passos
 
 1. Abra o agente local numa pasta nova e cole o pedido do repositório.
@@ -31,6 +32,7 @@ Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [págin
 ```
 Quero uma sequência audiovisual de quinze segundos, sem falas: um café pequeno num dia de chuva, com sensação de abrigo. Três planos. Não sei nada de produção audiovisual e quero acompanhar cada etapa. Comece pelo roteiro e pela divisão em planos, em texto, e me mostre antes de continuar. Depois escreva a descrição fixa de tudo que aparece em mais de um plano, para os três combinarem entre si. Pare e me mostre antes de gerar qualquer imagem, pare de novo antes de animar e pare antes de montar. Use apenas ferramentas gratuitas que rodem nesta máquina; se o que der para fazer aqui for um animatic e não um vídeo gerado, me diga isso com clareza em vez de tentar disfarçar. No fim, me diga como abrir o arquivo.
 ```
+
 
 ---
 
