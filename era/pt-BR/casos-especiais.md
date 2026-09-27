@@ -12,10 +12,11 @@ mim**, e **como eu olho o que o agente fez**.
 
 ## Os três nomes que aparecem no caminho
 
-Em algum ponto você vai ver o agente mencionar três nomes que não explicam nada
-sobre si mesmos: **WSL**, **GitHub** e **Netlify**. Eles não são assunto do
-livro. São os três lugares onde alguma coisa de fora entra na jornada — e a
-única pergunta que importa, quando um deles aparece, é: *isso pede algo de mim?*
+Em três momentos o livro menciona um nome que não explica nada sobre si mesmo:
+**WSL** no capítulo 9, **GitHub** no 10, **Netlify** no 12. Ele cita e segue em
+frente, de propósito — nenhum dos três é assunto dele. São os lugares onde
+alguma coisa de fora entra na jornada, e a única pergunta que importa, quando um
+deles aparece, é: *isso pede algo de mim?*
 
 A resposta é diferente para cada um.
 
