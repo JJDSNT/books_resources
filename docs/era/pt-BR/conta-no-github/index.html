@@ -26,6 +26,33 @@
   blockquote { margin:1.2em 0; padding:.1em 0 .1em .9em;
     border-left:3px solid #32D9E2; color:#4A5A66; }
   li { margin:.35rem 0; }
+  .tabela { margin:1.5rem 0; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { border:1px solid #D8CFC0; padding:.5rem .65rem; text-align:left;
+    vertical-align:top; }
+  thead th { background:#EFE7DA; color:#12344F; font-weight:600;
+    font-size:.82rem; letter-spacing:.02em; }
+  tbody tr:nth-child(even) { background:#F6F1E9; }
+  tbody td:first-child { color:#12344F; }
+  /* Num celular, quatro colunas nao cabem: cada linha vira um bloco, e o
+     rotulo da coluna passa a vir antes do valor. */
+  @media (max-width: 560px) {
+    thead { display:none; }
+    table, tbody, tbody tr, tbody td { display:block; width:100%; }
+    table { border:0; }
+    tbody tr { border:1px solid #D8CFC0; margin:0 0 .9rem;
+      background:#FDFAF5; }
+    tbody tr:nth-child(even) { background:#FDFAF5; }
+    tbody td { border:0; border-top:1px dashed #E3DACA; padding:.5rem .7rem; }
+    tbody td:first-child { border-top:0; background:#EFE7DA;
+      font-weight:600; font-size:1rem; }
+    /* A primeira celula e o titulo do bloco: repetir o nome da coluna em
+       cima dela ("COMANDO" sobre `pwd`) e so ruido. */
+    tbody td:first-child::before { content:none; }
+    td[data-label]::before { content:attr(data-label); display:block;
+      font-size:.7rem; letter-spacing:.09em; text-transform:uppercase;
+      color:#6B7780; margin:0 0 .2rem; }
+  }
   footer { margin-top:2.6rem; padding-top:1rem;
     border-top:1px solid #DFD8CC; font-size:.84rem; color:#6B7780; }
   @media (prefers-color-scheme: dark) {
@@ -33,6 +60,16 @@
     h1,h2,h3 { color:#8CE8E7; }
     pre, p code, li code { background:#1A2730; }
     blockquote { color:#A9B8C2; }
+    th, td { border-color:#2C3A45; }
+    thead th { background:#1A2730; color:#8CE8E7; }
+    tbody tr:nth-child(even) { background:#141F27; }
+    tbody td:first-child { color:#E8E4DC; }
+    @media (max-width: 560px) {
+      tbody tr, tbody tr:nth-child(even) { background:#131E26; }
+      tbody td { border-top-color:#2C3A45; }
+      tbody td:first-child { background:#1A2730; }
+      td[data-label]::before { color:#8B9AA6; }
+    }
   }
 </style>
 <p class="volta"><a href="../">&larr; A Era dos Agentes &mdash; materiais</a></p>
