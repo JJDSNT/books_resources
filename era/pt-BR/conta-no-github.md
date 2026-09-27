@@ -1,9 +1,8 @@
-<!-- exercicios: EX-03-02 -->
 # Ter uma conta no GitHub
 
 *Verificado em 27 de setembro de 2026.*
 
-**Nenhum exercício do livro precisa disto.** No capítulo 10 você entrega um
+**Nenhuma prática do livro precisa disto.** No capítulo 10 você entrega um
 endereço ao agente e ele lê o que tem ali — ler é aberto a todos, sem conta,
 sem instalar nada. Esta página é para quem, depois de ver aquilo funcionar,
 pensou: *e se eu tivesse um lugar assim para as minhas coisas?*

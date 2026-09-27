@@ -1,4 +1,3 @@
-<!-- exercicios: EX-03-01 -->
 # Preparar a máquina
 
 *Verificado em 27 de setembro de 2026, com WSL 2.9.3 e Ubuntu 24.04 LTS.
@@ -9,10 +8,10 @@ consulta a informação atualizada.*
 Esta página mora fora do livro de propósito: um livro impresso não se corrige,
 e esta página sim.
 
-**Não leia isto antes de fazer o exercício.** O exercício é pedir à versão web
+**Não leia isto antes de fazer a prática.** A prática é pedir à versão web
 do agente que te conduza pela instalação, um passo de cada vez — e essa conversa
-é a experiência que o capítulo quer te dar. Se você seguir o manual primeiro, o
-exercício perde a graça e você perde a descoberta.
+é a experiência que o capítulo quer te dar. Se você seguir o manual primeiro, a
+prática perde a graça e você perde a descoberta.
 
 Uma coisa que vale saber desde já: **neste capítulo quem digita é você.** Não
 existe agente na sua máquina ainda — é justamente isso que você está instalando.

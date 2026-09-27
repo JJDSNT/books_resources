@@ -1,4 +1,3 @@
-<!-- exercicios: EX-03-01 -->
 # Sete comandos, e o que cada um responde
 
 *Verificado em 27 de setembro de 2026.*

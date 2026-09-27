@@ -1,10 +1,10 @@
 # EX-04-01 — Um programa que nasce da sua descrição
 
-Exercício de **A Era dos Agentes** — Parte IV, capítulo 11, *Ver um agente programar*.
+Prática de **A Era dos Agentes** — Parte IV, capítulo 11, *Ver um agente programar*.
 
-**[Abrir este exercício no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-01/)** — com o pedido num botão de copiar, melhor no celular.
+**[Abrir esta prática no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-01/)** — com o pedido num botão de copiar, melhor no celular.
 
-> As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
+> As perguntas de observação e o conceito que esta prática demonstra estão no livro. Aqui fica só o que você precisa para executar.
 
 ## O que você vai ver acontecer
 
@@ -34,7 +34,7 @@ Não sei programar. Quero um programa simples de lista de tarefas que eu abra no
 
 ## Se quiser ir além
 
-Caminho opcional; nenhum exercício precisa disto:
+Caminho opcional; nenhuma prática precisa disto:
 
 - [Ver os arquivos que o agente criou](../ver-os-arquivos.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/ver-os-arquivos/)
 

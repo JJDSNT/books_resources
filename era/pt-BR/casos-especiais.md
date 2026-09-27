@@ -29,7 +29,7 @@ As três seções seguintes são só o detalhe de cada linha.
 
 ### WSL — o terminal que o Windows não tinha
 
-Se você usa Windows, os exercícios a partir do capítulo 10 supõem que existe um
+Se você usa Windows, as práticas a partir do capítulo 10 supõem que existe um
 Linux na sua máquina. O WSL é isso: um Linux que roda dentro do Windows, sem
 apagar nada, sem partição, sem disco novo. Quem usa macOS ou Linux já tem o
 equivalente e pode pular esta parte.
@@ -67,7 +67,7 @@ site", ele lê o que tem ali dentro, explica, instala e roda. A diferença entre
 ler uma página e ler um repositório é o ponto do capítulo.
 
 Conta no GitHub só passa a ser útil se você quiser guardar as suas próprias
-coisas lá. Nenhum exercício precisa — mas é um caminho que muita gente resolve
+coisas lá. Nenhuma prática precisa — mas é um caminho que muita gente resolve
 seguir depois de ver o capítulo 10 funcionar.
 
 → [Ter uma conta no GitHub](conta-no-github.md), se for o seu caso. É um
@@ -79,7 +79,7 @@ Nos capítulos 12 e 13 o seu programa sai da sua máquina e ganha um endereço q
 você pode mandar por mensagem. O Netlify é o serviço que faz isso. O plano
 gratuito basta para tudo o que o livro pede, e não exige cartão de crédito.
 
-**Este é o único dos três que pede uma ação sua antes do exercício.** A conta é
+**Este é o único dos três que pede uma ação sua antes da prática.** A conta é
 sua: tem o seu e-mail, e nenhum agente cria conta no seu nome. Depois de criada,
 você autoriza o agente a publicar nela — e essa autorização é revogável, o que
 vale saber antes de dar.
@@ -87,12 +87,12 @@ vale saber antes de dar.
 Se o agente pedir a sua senha, recuse. Ele não precisa dela.
 
 → [Criar a conta e autorizar o agente](conta-e-autorizacao.md) é o passo a
-passo, e este sim é para ler **antes** do exercício do capítulo 12.
+passo, e esta sim é para ler **antes** da prática do capítulo 12.
 
 ## Olhar o que o agente fez
 
-Estes dois são de outra natureza: não pedem nada de você, e nenhum exercício
-depende deles. São para a curiosidade de quem, depois de ver o agente criar
+Estes dois são de outra natureza: não pedem nada de você, e nenhuma prática
+depende delas. São para a curiosidade de quem, depois de ver o agente criar
 alguma coisa, quer abrir a gaveta e conferir.
 
 Vale dizer com clareza, porque é a espinha do livro: **saber isto não te torna

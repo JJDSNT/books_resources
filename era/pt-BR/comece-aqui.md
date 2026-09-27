@@ -1,6 +1,6 @@
 # Comece aqui
 
-Materiais dos exercícios de **A Era dos Agentes**.
+Materiais das práticas de **A Era dos Agentes**.
 
 > **Prefere no celular?** Tudo isto também está em [jjdsnt.github.io/books_resources/era/pt-BR/](https://jjdsnt.github.io/books_resources/era/pt-BR/), com botão de copiar em cada pedido.
 
@@ -12,7 +12,7 @@ Em cinco pontos a sua interface deixa de ser só o agente: **WSL**, **GitHub** e
 
 ## Como usar
 
-Cada exercício do livro traz um código QR. Aponte a câmera do celular e a página abre com o pedido e um **botão de copiar** — você não precisa digitar nada. Se preferir, os mesmos pedidos estão aqui, em `pedido.txt` dentro de cada pasta.
+Cada prática do livro traz um código QR. Aponte a câmera do celular e a página abre com o pedido e um **botão de copiar** — você não precisa digitar nada. Se preferir, os mesmos pedidos estão aqui, em `pedido.txt` dentro de cada pasta.
 
 ## O que tem em cada pasta
 
@@ -20,15 +20,15 @@ Cada exercício do livro traz um código QR. Aponte a câmera do celular e a pá
 - `README.md` — o que você vai ver acontecer, o que precisa ter, os passos e como desfazer
 - em alguns, um passo a passo datado de preparação (criar conta, instalar)
 
-**O que não tem aqui:** as perguntas de observação e o conceito que cada exercício demonstra. Isso está no livro, e é o que transforma executar em aprender.
+**O que não tem aqui:** as perguntas de observação e o conceito que cada prática demonstra. Isso está no livro, e é o que transforma executar em aprender.
 
 ## Se algo não bater
 
 Ferramentas e serviços mudam mais rápido que livros. Cada página traz a data em que foi verificada. Se o que você vê na tela não corresponder ao que está escrito, **confie na tela** — e nos avise abrindo uma issue.
 
-## Exercícios
+## Práticas
 
-| Capítulo | Exercício | |
+| Capítulo | Prática | |
 | --- | --- | --- |
 | 4 | De quem veio esse detalhe? | [EX-02-01](EX-02-01/) |
 | 9 | Peça ajuda para abrir a porta | [EX-03-01](EX-03-01/) |

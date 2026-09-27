@@ -1,4 +1,3 @@
-<!-- exercicios: EX-04-01 -->
 # Ver os arquivos que o agente criou
 
 *Verificado em 27 de setembro de 2026, com VS Code 1.105.*

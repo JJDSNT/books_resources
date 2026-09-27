@@ -1,10 +1,10 @@
 # EX-04-02 — Mande o endereço para alguém
 
-Exercício de **A Era dos Agentes** — Parte IV, capítulo 12, *Pôr no ar*.
+Prática de **A Era dos Agentes** — Parte IV, capítulo 12, *Pôr no ar*.
 
-**[Abrir este exercício no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-02/)** — com o pedido num botão de copiar, melhor no celular.
+**[Abrir esta prática no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-02/)** — com o pedido num botão de copiar, melhor no celular.
 
-> As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
+> As perguntas de observação e o conceito que esta prática demonstra estão no livro. Aqui fica só o que você precisa para executar.
 
 ## O que você vai ver acontecer
 
@@ -23,7 +23,7 @@ O agente não faz esta parte por você:
 
 ## Passos
 
-1. Crie a conta em netlify.com, no navegador, com e-mail e senha. Não é pedido cartão. Se um dia passar a ser, pare e leia com atenção — este exercício não precisa de plano pago. Essa parte é sua; o agente não faz por você.
+1. Crie a conta em netlify.com, no navegador, com e-mail e senha. Não é pedido cartão. Se um dia passar a ser, pare e leia com atenção — esta prática não precisa de plano pago. Essa parte é sua; o agente não faz por você.
 2. Abra o agente local na pasta do programa e cole o pedido.
 3. Em algum momento uma janela do navegador vai se abrir pedindo que você autorize o acesso à sua conta. Leia antes de clicar. Se em vez disso o agente pedir a sua senha, recuse — não é assim que funciona.
 4. Deixe implantar e abra o endereço que ele devolver.

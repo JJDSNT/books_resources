@@ -1,4 +1,3 @@
-<!-- exercicios: EX-04-02 -->
 # Criar a conta e autorizar o agente
 
 *Verificado em 26 de setembro de 2026. Telas de serviço mudam; se o que você
@@ -41,12 +40,12 @@ No painel da Netlify, em **User settings → Applications**, ficam listados os
 acessos concedidos. Dá para revogar qualquer um a qualquer momento. Fazer isso
 não apaga os seus sites — só tira o acesso daquele programa.
 
-Se você criou o site só para o exercício, apague também o site: no painel do
+Se você criou o site só para a prática, apague também o site: no painel do
 projeto, em **Site configuration → Danger zone**.
 
 ## 4. Se algo der errado
 
-- **Pediram cartão.** Pare e leia com atenção. Este exercício não precisa de
+- **Pediram cartão.** Pare e leia com atenção. Esta prática não precisa de
   plano pago; se a tela insistir, não continue e nos avise.
 - **A janela de autorização não abriu.** Pode ser bloqueio de pop-up. Libere e
   peça ao agente que tente de novo.

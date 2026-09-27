@@ -3,7 +3,7 @@
 **Uma introdução à inteligência artificial agentiva** — Jaime Dias
 *An introduction to agentic artificial intelligence*
 
-Materiais de apoio: os pedidos que você entrega ao agente em cada exercício,
+Materiais de apoio: os pedidos que você entrega ao agente em cada prática,
 com os passos e o que fazer se travar.
 
 **[Os casos especiais →](pt-BR/casos-especiais.md)** — WSL, GitHub e Netlify
