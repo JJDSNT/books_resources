@@ -58,8 +58,8 @@ desfazer. Nenhum dos dois é leitura prévia.
 
 - → [Preparar a máquina](preparar-a-maquina.md) — o WSL e o Ubuntu.
 - → [Instalar o agente na sua máquina](instalar-o-codex.md) — o Codex, entrar
-  na sua conta do ChatGPT e o que a cota gratuita dá. É a razão de tudo isto:
-  o WSL só existe para ter onde o agente morar.
+  na sua conta do ChatGPT e quanto dá para usar sem pagar. É a razão de tudo
+  isto: o WSL só existe para ter onde o agente morar.
 
 ### GitHub — a estante pública
 

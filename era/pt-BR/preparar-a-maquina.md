@@ -174,7 +174,7 @@ Como aqui, quem conduz é o agente da web. E, como aqui, existe rede de
 segurança para quando a orientação não bater com a sua tela:
 
 → **[Instalar o agente na sua máquina](instalar-o-codex.md)** — instalação,
-entrada na conta, o que a cota gratuita dá, e como desfazer.
+entrada na conta, quanto dá para usar sem pagar, e como desfazer.
 
 ### Como saber que ficou pronto
 
