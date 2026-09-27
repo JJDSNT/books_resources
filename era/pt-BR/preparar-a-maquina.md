@@ -173,8 +173,9 @@ seus limites.
 Como aqui, quem conduz é o agente da web. E, como aqui, existe rede de
 segurança para quando a orientação não bater com a sua tela:
 
-→ **[Instalar o agente na sua máquina](instalar-o-codex.md)** — instalação,
-entrada na conta, quanto dá para usar sem pagar, e como desfazer.
+→ **[Instalar o agente na sua máquina](instalar-o-codex.md)** — o agente é a
+razão de tudo isto: o WSL só existe para ter onde ele morar. E o Codex pode usar
+a conta gratuita do ChatGPT.
 
 ### Como saber que ficou pronto
 
