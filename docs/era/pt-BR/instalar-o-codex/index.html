@@ -126,6 +126,19 @@ para passar o dia inteiro conversando.</p>
 <p>Ele mostra quanto resta. Se você bater no limite, a mensagem vai sugerir
 assinar — <strong>não precisa</strong>. A cota volta sozinha quando a janela passa, e nenhuma
 prática deste livro depende de plano pago.</p>
+<h2>Voltar a uma conversa</h2>
+<p>Fechar o Codex não apaga a conversa. Para continuar de onde parou, abra o
+terminal <strong>na mesma pasta</strong> em que estava trabalhando e rode:</p>
+<pre><code>codex resume
+</code></pre>
+<p>Aparece a lista das conversas feitas naquela pasta, da mais recente para a mais
+antiga; escolha com as setas e aperte Enter. Se você quer a última,
+<code>codex resume --last</code> pula a lista. Com o Codex já aberto, <code>/resume</code> faz a
+mesma coisa.</p>
+<p>A lista só mostra as conversas da pasta onde você está. Se ela vier vazia,
+quase sempre o terminal abriu em outro lugar: rode <code>pwd</code> e confira.</p>
+<p>Nem sempre vale retomar. Para um trabalho novo, uma conversa nova começa limpa,
+sem arrastar o que ficou da anterior.</p>
 <h2>Quando algo dá errado</h2>
 <ul>
 <li><strong><code>codex: command not found</code> depois de instalar.</strong> Quase sempre é o terminal

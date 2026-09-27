@@ -17,7 +17,7 @@ O agente local que você preparou. Cerca de vinte minutos.
 
 ## Passos
 
-1. Abra o agente local numa pasta nova.
+1. Abra o agente local numa pasta nova, só para este programa. Você vai voltar a ela nos próximos dois capítulos.
 2. Pegue o pedido no repositório e cole.
 3. Leia o plano que ele propõe antes de deixar escrever. Se a proposta parecer grande demais para quatro comportamentos simples, pergunte o que você perde se for mais simples.
 4. Deixe escrever e abra o resultado.

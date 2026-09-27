@@ -17,12 +17,14 @@ O programa publicado no capítulo anterior. Cerca de trinta minutos.
 
 ## Passos
 
-1. Antes de mudar qualquer coisa, pergunte ao agente como se volta para a versão anterior. Anote a resposta.
-2. Cole o pedido da mudança.
-3. Quando ele terminar e publicar, abra o endereço.
-4. Teste primeiro o que não era para mudar: criar, marcar, fechar, reabrir.
-5. Só então experimente os filtros novos.
-6. Se algo tiver quebrado, volte para a versão anterior — e repare em quanto tempo levou.
+1. Abra o agente local na pasta do programa, retomando a conversa ou pedindo que ele leia o projeto.
+2. Antes de mudar qualquer coisa, pergunte ao agente como se volta para a versão anterior. Anote a resposta.
+3. Cole o pedido da mudança.
+4. Quando ele terminar e publicar, abra o endereço.
+5. Teste primeiro o que não era para mudar: criar, marcar, fechar, reabrir.
+6. Só então experimente os filtros novos.
+7. Se algo tiver quebrado, volte para a versão anterior — e repare em quanto tempo levou.
+8. Peça que ele deixe o projeto explicado para uma conversa nova: o que o programa faz, como se abre, onde está publicado e o que vocês decidiram. Depois abra uma conversa nova e pergunte o que ele sabe sobre o programa.
 
 ## O pedido
 
@@ -32,6 +34,12 @@ Está em [`pedido.txt`](pedido.txt), pronto para copiar. Também há uma [págin
 Quero acrescentar três botões ao programa que já está publicado na Netlify: ver todas as tarefas, ver só as pendentes, ver só as concluídas. Tudo que já funcionava precisa continuar funcionando do mesmo jeito, e nada do que já está salvo pode se perder. Antes de mudar, me diga como eu volto para a versão que está publicada agora, caso a nova dê problema. Quando terminar, me diga o que você mudou, o que você conferiu e o que ficou para eu conferir.
 ```
 
+
+## Se quiser ir além
+
+Caminho opcional; nenhuma prática precisa disto:
+
+- [Ter uma conta no GitHub](../conta-no-github.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/conta-no-github/)
 
 ---
 

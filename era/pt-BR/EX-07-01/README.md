@@ -20,7 +20,7 @@ O agente local que você preparou. Autorização para instalar o Ollama, um mode
 1. Abra o agente local numa pasta nova e cole o pedido do repositório.
 2. Autorize as instalações conforme ele explicar o que é cada uma e quanto ocupa.
 3. Rode o processo com o pedido fictício de duzentos cadernos.
-4. Quando ele parar esperando sua decisão, feche tudo. Vá fazer outra coisa. Volte depois e retome.
+4. Quando ele parar esperando sua decisão, feche tudo. Vá fazer outra coisa. Volte depois, retome a conversa com o agente na mesma pasta e peça para continuar.
 5. Aprove, e leia a resposta gerada ao cliente.
 6. Rode de novo e, desta vez, recuse. Leia a resposta outra vez.
 7. Peça para ver o estado guardado após cada etapa.
