@@ -3,8 +3,8 @@
 
 *Verificado em 27 de setembro de 2026, com WSL 2.9.3 e Ubuntu 24.04 LTS.
 Telas e comandos mudam; se o que você vê não bater com o que está aqui,
-**confie na tela** — e prefira o que o agente te disser, porque ele consulta a
-informação de hoje.*
+**confie na tela** — e prefira o que o agente te disser, porque ele
+consulta a informação atualizada.*
 
 Esta página mora fora do livro de propósito: um livro impresso não se corrige,
 e esta página sim.

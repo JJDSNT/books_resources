@@ -109,5 +109,5 @@ que lembrar de sintaxe. É só que a máquina é sua, e olhar o que apareceu nel
 
 Telas de instalação e páginas de cadastro mudam a cada poucos meses. Um livro
 impresso não se corrige; esta página sim. Se o que você vê na tela não bater com
-o que está escrito aqui, **confie na tela** — e prefira o que o agente te
-disser, porque ele consulta a informação de hoje.
+o que está escrito aqui, **confie na tela** — e prefira o que o agente
+te disser, porque ele consulta a informação atualizada.
