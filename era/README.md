@@ -8,8 +8,8 @@ com os passos e o que fazer se travar.
 
 **[Os casos especiais →](pt-BR/casos-especiais.md)** — WSL, GitHub e Netlify
 aparecem no caminho e pedem coisas diferentes de você; o VS Code e alguns
-comandos do terminal servem para olhar o que o agente fez. Cinco páginas
-curtas, aqui e não no livro, para poderem ser corrigidas.
+comandos do terminal servem para olhar o que o agente fez. Páginas curtas,
+aqui e não no livro, para poderem ser corrigidas.
 
 **[Abrir no site →](https://jjdsnt.github.io/books_resources/era/pt-BR/)** — melhor no celular, com botão de
 copiar em cada pedido. É para lá que os códigos QR do livro levam.

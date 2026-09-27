@@ -6,9 +6,9 @@ Materiais das práticas de **A Era dos Agentes**.
 
 ## Os casos especiais
 
-Em cinco pontos a sua interface deixa de ser só o agente: **WSL**, **GitHub** e **Netlify** aparecem no caminho e pedem coisas diferentes de você; o **VS Code** e alguns **comandos do terminal** servem para olhar o que ele fez.
+Em alguns pontos a sua interface deixa de ser só o agente: **WSL**, **GitHub** e **Netlify** aparecem no caminho e pedem coisas diferentes de você; instalar o **Codex** é a segunda metade do capítulo 9; e o **VS Code** e alguns **comandos do terminal** servem para olhar o que ele fez.
 
-**→ [Os casos especiais](casos-especiais.md)** — cinco páginas curtas, mantidas fora do livro para poderem ser corrigidas.
+**→ [Os casos especiais](casos-especiais.md)** — páginas curtas, mantidas fora do livro para poderem ser corrigidas.
 
 ## Como usar
 

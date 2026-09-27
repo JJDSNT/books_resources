@@ -2,7 +2,7 @@
 
 *Verificado em 27 de setembro de 2026.*
 
-No livro, a sua interface é o agente: você pede, ele faz. Em cinco pontos isso
+No livro, a sua interface é o agente: você pede, ele faz. Em alguns pontos isso
 tem uma borda — coisas que o agente não resolve sozinho, ou que envelhecem
 rápido demais para estarem num livro impresso. Elas estão todas aqui, e todas
 são curtas.
@@ -51,10 +51,15 @@ O que você faz de próprio: escolher um nome de usuário e uma senha para o Lin
 A senha não aparece na tela enquanto você digita — o cursor fica parado e parece
 que o teclado morreu. Não morreu.
 
-→ [Preparar a máquina](preparar-a-maquina.md) é o passo a passo completo. Ele
-existe como **rede de segurança**: para quando a orientação não bater com a sua
-tela, para saber o que um comando faz antes de apertar Enter, ou para desfazer.
-Não é leitura prévia.
+O capítulo 9 tem duas metades, e há um passo a passo para cada uma. Os dois
+existem como **rede de segurança** — para quando a orientação não bater com a
+sua tela, para saber o que um comando faz antes de apertar Enter, ou para
+desfazer. Nenhum dos dois é leitura prévia.
+
+- → [Preparar a máquina](preparar-a-maquina.md) — o WSL e o Ubuntu.
+- → [Instalar o agente na sua máquina](instalar-o-codex.md) — o Codex, entrar
+  na sua conta do ChatGPT e o que a cota gratuita dá. É a razão de tudo isto:
+  o WSL só existe para ter onde o agente morar.
 
 ### GitHub — a estante pública
 

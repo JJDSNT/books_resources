@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instalar o agente na sua máquina — A Era dos Agentes</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:18px 16px 56px; max-width:44rem;
+    margin-inline:auto; font-family:-apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,sans-serif; line-height:1.6; color:#12202B;
+    background:#FAF8F4; }
+  .volta { font-size:.88rem; margin:0 0 1.4rem; }
+  .subir { margin:2.4rem 0 0; font-size:.92rem; }
+  a { color:#1E8E99; }
+  h1 { font-size:1.5rem; line-height:1.25; color:#12344F; margin:0 0 .6rem; }
+  h2 { font-size:1.12rem; color:#12344F; margin:2rem 0 .5rem; }
+  h3 { font-size:1rem; color:#12344F; margin:1.5rem 0 .4rem; }
+  hr { border:0; border-top:1px solid #DFD8CC; margin:2.2rem 0; }
+  pre { background:#F1EAE0; padding:12px 14px; overflow-x:auto;
+    border-radius:4px; font-size:.88rem; }
+  code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:.9em; }
+  p code, li code { background:#F1EAE0; padding:.1em .35em;
+    border-radius:3px; }
+  blockquote { margin:1.2em 0; padding:.1em 0 .1em .9em;
+    border-left:3px solid #32D9E2; color:#4A5A66; }
+  li { margin:.35rem 0; }
+  .tabela { margin:1.5rem 0; }
+  table { width:100%; border-collapse:collapse; font-size:.92rem; }
+  th, td { border:1px solid #D8CFC0; padding:.5rem .65rem; text-align:left;
+    vertical-align:top; }
+  thead th { background:#EFE7DA; color:#12344F; font-weight:600;
+    font-size:.82rem; letter-spacing:.02em; }
+  tbody tr:nth-child(even) { background:#F6F1E9; }
+  tbody td:first-child { color:#12344F; }
+  /* Num celular, quatro colunas nao cabem: cada linha vira um bloco, e o
+     rotulo da coluna passa a vir antes do valor. */
+  @media (max-width: 560px) {
+    thead { display:none; }
+    table, tbody, tbody tr, tbody td { display:block; width:100%; }
+    table { border:0; }
+    tbody tr { border:1px solid #D8CFC0; margin:0 0 .9rem;
+      background:#FDFAF5; }
+    tbody tr:nth-child(even) { background:#FDFAF5; }
+    tbody td { border:0; border-top:1px dashed #E3DACA; padding:.5rem .7rem; }
+    tbody td:first-child { border-top:0; background:#EFE7DA;
+      font-weight:600; font-size:1rem; }
+    /* A primeira celula e o titulo do bloco: repetir o nome da coluna em
+       cima dela ("COMANDO" sobre `pwd`) e so ruido. */
+    tbody td:first-child::before { content:none; }
+    td[data-label]::before { content:attr(data-label); display:block;
+      font-size:.7rem; letter-spacing:.09em; text-transform:uppercase;
+      color:#6B7780; margin:0 0 .2rem; }
+  }
+  footer { margin-top:2.6rem; padding-top:1rem;
+    border-top:1px solid #DFD8CC; font-size:.84rem; color:#6B7780; }
+  @media (prefers-color-scheme: dark) {
+    body { background:#0E1A22; color:#E8E4DC; }
+    h1,h2,h3 { color:#8CE8E7; }
+    pre, p code, li code { background:#1A2730; }
+    blockquote { color:#A9B8C2; }
+    th, td { border-color:#2C3A45; }
+    thead th { background:#1A2730; color:#8CE8E7; }
+    tbody tr:nth-child(even) { background:#141F27; }
+    tbody td:first-child { color:#E8E4DC; }
+    @media (max-width: 560px) {
+      tbody tr, tbody tr:nth-child(even) { background:#131E26; }
+      tbody td { border-top-color:#2C3A45; }
+      tbody td:first-child { background:#1A2730; }
+      td[data-label]::before { color:#8B9AA6; }
+    }
+  }
+</style>
+<p class="volta"><a href="../">&larr; A Era dos Agentes &mdash; materiais</a></p>
+<h1>Instalar o agente na sua máquina</h1>
+<p><em>Verificado em 27 de setembro de 2026, com Codex CLI 0.156 em Ubuntu 24.04
+sobre WSL. Telas e comandos mudam; se o que você vê não bater com o que está
+aqui, <strong>confie na tela</strong> — e prefira o que o agente da web te disser, porque
+ele consulta a informação atualizada.</em></p>
+<p>Esta é a segunda metade do capítulo 9. O WSL só existe para isto: ter onde o
+agente morar.</p>
+<p>Como na primeira metade, <strong>quem conduz é o agente da web</strong> e as mãos são suas.
+Esta página é rede de segurança — para conferir um comando antes de rodar, para
+quando a orientação não bater com a sua tela, ou para desfazer.</p>
+<h2>Antes: a conta</h2>
+<p>O Codex entra com a sua conta do ChatGPT, a mesma que você já usa no navegador.
+<strong>O plano gratuito serve</strong>, com a menor cota e só as tarefas locais — que é
+exatamente o que o livro pede. As tarefas na nuvem, que começam no plano pago,
+não aparecem em nenhuma prática.</p>
+<p>Se você não tem conta, crie uma em <code>chatgpt.com</code> antes de continuar. Não é
+pedido cartão.</p>
+<h2>Instalar</h2>
+<p>No terminal do Linux — o do WSL, se você usa Windows:</p>
+<pre><code>curl -fsSL https://chatgpt.com/codex/install.sh | sh
+</code></pre>
+<p>Esse comando baixa um programa de instalação do site da OpenAI e executa. Vale
+saber o que você está fazendo ao rodar algo assim: é um atalho comum e, neste
+caso, o endereço é o da própria dona do produto. Se quiser olhar antes de
+executar — e é um hábito bom —, troque o final por <code>| less</code> e leia; para sair
+do <code>less</code>, aperte <code>q</code>.</p>
+<p>Depois feche e reabra o terminal, para ele encontrar o comando novo.</p>
+<h3>Se preferir pelo npm</h3>
+<p>Funciona igual, e exige o Node.js instalado (versão 18 ou mais nova):</p>
+<pre><code>npm install -g @openai/codex
+</code></pre>
+<p><strong>O <code>@openai/</code> importa.</strong> Existe um pacote chamado só <code>codex</code>, de outro projeto
+sem relação nenhuma com este, e instalar o errado é o tropeço mais comum aqui.</p>
+<h2>Entrar na sua conta</h2>
+<p>Rode:</p>
+<pre><code>codex
+</code></pre>
+<p>Na primeira vez ele oferece as formas de entrar. Escolha <strong>Sign in with
+ChatGPT</strong> — ele abre o navegador, você confirma com a sua conta, e volta para o
+terminal já conectado.</p>
+<p>A outra opção, chave de API, é paga por uso e <strong>não é o caminho deste livro</strong>.
+Se você se pegar colando uma chave que começa com <code>sk-</code>, parou no lugar errado.</p>
+<h2>Conferir que ficou pronto</h2>
+<p>Peça a coisa mais simples possível:</p>
+<blockquote>
+<p>me diga em que pasta você está trabalhando agora</p>
+</blockquote>
+<p>Se vier uma resposta que corresponde ao seu computador — algo como
+<code>/home/seu-usuário</code> —, a porta está aberta. Esse é o fim do capítulo 9.</p>
+<h2>Quanto você pode usar</h2>
+<p>A cota do plano gratuito é contada numa janela móvel de cinco horas, com um
+teto semanal por cima. Na prática: dá para fazer as práticas do livro, e não dá
+para passar o dia inteiro conversando.</p>
+<p>Dentro do Codex, digite:</p>
+<pre><code>/status
+</code></pre>
+<p>Ele mostra quanto resta. Se você bater no limite, a mensagem vai sugerir
+assinar — <strong>não precisa</strong>. A cota volta sozinha quando a janela passa, e nenhuma
+prática deste livro depende de plano pago.</p>
+<h2>Quando algo dá errado</h2>
+<ul>
+<li><strong><code>codex: command not found</code> depois de instalar.</strong> Quase sempre é o terminal
+que ainda não sabe do comando novo. Feche e abra de novo. Se persistir, cole
+a mensagem inteira para o agente da web.</li>
+<li><strong>Instalou pelo npm e deu erro de permissão.</strong> Não saia rodando com <code>sudo</code> por
+conta própria: peça ao agente que explique a diferença entre as saídas
+possíveis antes de você escolher.</li>
+<li><strong>A janela do navegador não abriu na hora de entrar.</strong> O terminal costuma
+imprimir um endereço junto; copie e abra à mão.</li>
+<li><strong>Você instalou no Windows em vez de no Linux.</strong> Sintoma: o Codex funciona,
+mas não enxerga os arquivos que o agente criou no WSL. Rode <code>pwd</code>: se
+aparecer algo começando com <code>/home/</code>, você está no lugar certo.</li>
+</ul>
+<h2>Desfazer</h2>
+<p>Instalado pelo script:</p>
+<pre><code>rm -rf ~/.codex ~/.local/bin/codex
+</code></pre>
+<p>Instalado pelo npm:</p>
+<pre><code>npm uninstall -g @openai/codex
+</code></pre>
+<p>Sair da conta sem desinstalar: <code>codex logout</code>.</p>
+<p>E, se você quiser apagar tudo de uma vez — o agente, o Linux e o que estiver
+dentro dele —, isso está em <a href="../preparar-a-maquina/">Preparar a máquina</a>, no fim.</p>
+<p class="subir"><a href="../casos-especiais/">← Os casos especiais</a></p>
+<footer>
+  <a href="../">Todas as práticas</a> &middot;
+  <a href="https://github.com/JJDSNT/books_resources/blob/main/era/pt-BR/instalar-o-codex.md">Ver o texto no repositório</a>
+</footer>

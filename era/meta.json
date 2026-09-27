@@ -6,16 +6,18 @@
     "pt-BR": [
       "era/pt-BR/casos-especiais.md",
       "docs/era/pt-BR/casos-especiais",
-      "era/pt-BR/comandos-basicos.md",
-      "docs/era/pt-BR/comandos-basicos",
+      "era/pt-BR/preparar-a-maquina.md",
+      "docs/era/pt-BR/preparar-a-maquina",
+      "era/pt-BR/instalar-o-codex.md",
+      "docs/era/pt-BR/instalar-o-codex",
       "era/pt-BR/conta-e-autorizacao.md",
       "docs/era/pt-BR/conta-e-autorizacao",
       "era/pt-BR/conta-no-github.md",
       "docs/era/pt-BR/conta-no-github",
-      "era/pt-BR/preparar-a-maquina.md",
-      "docs/era/pt-BR/preparar-a-maquina",
       "era/pt-BR/ver-os-arquivos.md",
-      "docs/era/pt-BR/ver-os-arquivos"
+      "docs/era/pt-BR/ver-os-arquivos",
+      "era/pt-BR/comandos-basicos.md",
+      "docs/era/pt-BR/comandos-basicos"
     ]
   },
   "autor": "Jaime Dias",

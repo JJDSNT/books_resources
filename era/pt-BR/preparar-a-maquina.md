@@ -167,12 +167,14 @@ Você já tem o que precisa. O terminal costuma abrir com `Ctrl + Alt + T`.
 
 Com o terminal pronto, falta instalar um agente que rode nele. O livro sugere o
 **Codex** pela possibilidade de uso gratuito, mas não é obrigatório — Claude
-Code, Gemini CLI e OpenCode fazem o mesmo trabalho, cada um com suas telas e
+Code, Antigravity CLI e OpenCode fazem o mesmo trabalho, cada um com suas telas e
 seus limites.
 
-**Não copie comandos de instalação daqui.** Essa é a informação que envelhece
-mais rápido de todas. Peça ao agente da web que te conduza, um passo de cada
-vez, e ele consulta a versão de hoje.
+Como aqui, quem conduz é o agente da web. E, como aqui, existe rede de
+segurança para quando a orientação não bater com a sua tela:
+
+→ **[Instalar o agente na sua máquina](instalar-o-codex.md)** — instalação,
+entrada na conta, o que a cota gratuita dá, e como desfazer.
 
 ### Como saber que ficou pronto
 
@@ -181,7 +183,7 @@ Abra o agente local e peça a coisa mais simples possível:
 > me diga em que pasta você está trabalhando agora
 
 Se vier uma resposta que corresponde ao seu computador — algo como
-`/home/seu-usuário` —, a porta está aberta.
+`/home/seu-usuário` —, a porta está aberta. Esse é o fim do capítulo 9.
 
 ---
 
