@@ -9,15 +9,20 @@ informação de hoje.*
 Esta página mora fora do livro de propósito: um livro impresso não se corrige,
 e esta página sim.
 
-**Não leia isto antes de fazer o exercício.** O exercício é justamente pedir ao
-agente que te conduza pela instalação — e essa é a experiência que o capítulo
-quer te dar. Se você seguir o manual primeiro, o exercício perde a graça e você
-perde a descoberta.
+**Não leia isto antes de fazer o exercício.** O exercício é pedir à versão web
+do agente que te conduza pela instalação, um passo de cada vez — e essa conversa
+é a experiência que o capítulo quer te dar. Se você seguir o manual primeiro, o
+exercício perde a graça e você perde a descoberta.
+
+Uma coisa que vale saber desde já: **neste capítulo quem digita é você.** Não
+existe agente na sua máquina ainda — é justamente isso que você está instalando.
+O agente está na aba do navegador, orientando; as mãos são suas. A partir do
+capítulo 10, quando ele já mora na máquina, isso se inverte.
 
 Esta página é **rede de segurança**, para três momentos:
 
-- o agente se perdeu e você quer conferir onde está;
-- ele pediu autorização para algo e você quer entender o que é antes de aceitar;
+- a orientação não bateu com o que apareceu na sua tela;
+- você quer saber o que um comando faz antes de apertar Enter;
 - você quer desfazer o que foi instalado.
 
 ---

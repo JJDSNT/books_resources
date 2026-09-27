@@ -21,7 +21,7 @@ A resposta é diferente para cada um.
 
 | | O que é | Pede algo de você? | Quem conduz |
 | --- | --- | --- | --- |
-| **WSL** | um Linux funcionando dentro do Windows | autorizar, e escolher uma senha | o agente |
+| **WSL** | um Linux funcionando dentro do Windows | digitar o que ele orientar, e escolher uma senha | o agente na web — as mãos são suas |
 | **GitHub** | o lugar onde programas ficam guardados em público | nada — só se você quiser | o agente lê |
 | **Netlify** | o lugar onde o seu programa fica no ar | criar a conta | você, e depois o agente |
 
@@ -34,18 +34,26 @@ Linux na sua máquina. O WSL é isso: um Linux que roda dentro do Windows, sem
 apagar nada, sem partição, sem disco novo. Quem usa macOS ou Linux já tem o
 equivalente e pode pular esta parte.
 
-**Quem instala é o agente.** Esse é o exercício do capítulo 9, e é de propósito:
-a primeira vez que você vê um agente mexer na sua máquina é a primeira vez que
-você precisa decidir se autoriza. Não vale a pena estragar essa descoberta
-seguindo um manual antes.
+**Aqui as mãos são as suas.** Vale ser exato, porque é o único ponto do livro
+onde isso acontece: no capítulo 9 ainda não existe agente na sua máquina — ele
+só passa a existir depois do WSL. Quem orienta é a versão **web** do agente, a
+mesma janela de conversa que você já usa, e ela não toca no seu computador. Ela
+diz o que fazer, uma coisa de cada vez, e explica o que cada passo faz; você
+digita, e volta para contar o que apareceu na tela.
 
-O que você faz: autoriza, e escolhe um nome de usuário e uma senha para o
-Linux. A senha não aparece na tela enquanto você digita — o cursor fica parado
-e parece que o teclado morreu. Não morreu.
+É um diálogo, não uma instalação automática. E é de propósito: quando, no
+capítulo 10, o agente já instalado pedir para fazer algo **ele mesmo**, você vai
+ter com o que comparar — e aí sim a palavra *autorizar* passa a significar
+alguma coisa.
+
+O que você faz de próprio: escolher um nome de usuário e uma senha para o Linux.
+A senha não aparece na tela enquanto você digita — o cursor fica parado e parece
+que o teclado morreu. Não morreu.
 
 → [Preparar a máquina](preparar-a-maquina.md) é o passo a passo completo. Ele
-existe como **rede de segurança**: para quando o agente se perder, para conferir
-antes de autorizar algo, ou para desfazer. Não é leitura prévia.
+existe como **rede de segurança**: para quando a orientação não bater com a sua
+tela, para saber o que um comando faz antes de apertar Enter, ou para desfazer.
+Não é leitura prévia.
 
 ### GitHub — a estante pública
 

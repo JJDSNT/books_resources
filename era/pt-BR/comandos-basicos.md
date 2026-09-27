@@ -3,10 +3,13 @@
 
 *Verificado em 27 de setembro de 2026.*
 
-**Você não precisa decorar nada disto.** O livro inteiro funciona sem: quem
-digita comandos é o agente, e pedir em português é mais rápido que lembrar de
-sintaxe. Esta página existe porque, depois de instalar o terminal, quase todo
-mundo tem a mesma curiosidade — *e se eu quiser olhar sozinho?*
+**Você não precisa decorar nada disto.** Do capítulo 10 em diante quem digita
+comandos é o agente, e pedir em português é mais rápido que lembrar de sintaxe.
+
+Esta página existe por causa do capítulo 9, que é a exceção: ali o agente ainda
+está no navegador, orientando, e as mãos são suas. Depois de digitar algumas
+coisas sem saber bem o que eram, quase todo mundo tem a mesma curiosidade — *e
+se eu quiser olhar sozinho?*
 
 O jeito útil de ver um comando não é "o que ele faz", é **que pergunta ele
 responde**.
