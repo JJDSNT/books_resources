@@ -100,12 +100,6 @@ caso, o endereço é o da própria dona do produto. Se quiser olhar antes de
 executar — e é um hábito bom —, troque o final por <code>| less</code> e leia; para sair
 do <code>less</code>, aperte <code>q</code>.</p>
 <p>Depois feche e reabra o terminal, para ele encontrar o comando novo.</p>
-<h3>Se preferir pelo npm</h3>
-<p>Funciona igual, e exige o Node.js instalado (versão 18 ou mais nova):</p>
-<pre><code>npm install -g @openai/codex
-</code></pre>
-<p><strong>O <code>@openai/</code> importa.</strong> Existe um pacote chamado só <code>codex</code>, de outro projeto
-sem relação nenhuma com este, e instalar o errado é o tropeço mais comum aqui.</p>
 <h2>Entrar na sua conta</h2>
 <p>Rode:</p>
 <pre><code>codex
@@ -137,9 +131,6 @@ prática deste livro depende de plano pago.</p>
 <li><strong><code>codex: command not found</code> depois de instalar.</strong> Quase sempre é o terminal
 que ainda não sabe do comando novo. Feche e abra de novo. Se persistir, cole
 a mensagem inteira para o agente da web.</li>
-<li><strong>Instalou pelo npm e deu erro de permissão.</strong> Não saia rodando com <code>sudo</code> por
-conta própria: peça ao agente que explique a diferença entre as saídas
-possíveis antes de você escolher.</li>
 <li><strong>A janela do navegador não abriu na hora de entrar.</strong> O terminal costuma
 imprimir um endereço junto; copie e abra à mão.</li>
 <li><strong>Você instalou no Windows em vez de no Linux.</strong> Sintoma: o Codex funciona,
@@ -147,11 +138,7 @@ mas não enxerga os arquivos que o agente criou no WSL. Rode <code>pwd</code>: s
 aparecer algo começando com <code>/home/</code>, você está no lugar certo.</li>
 </ul>
 <h2>Desfazer</h2>
-<p>Instalado pelo script:</p>
 <pre><code>rm -rf ~/.codex ~/.local/bin/codex
-</code></pre>
-<p>Instalado pelo npm:</p>
-<pre><code>npm uninstall -g @openai/codex
 </code></pre>
 <p>Sair da conta sem desinstalar: <code>codex logout</code>.</p>
 <p>E, se você quiser apagar tudo de uma vez — o agente, o Linux e o que estiver

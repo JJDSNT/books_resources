@@ -38,17 +38,6 @@ do `less`, aperte `q`.
 
 Depois feche e reabra o terminal, para ele encontrar o comando novo.
 
-### Se preferir pelo npm
-
-Funciona igual, e exige o Node.js instalado (versão 18 ou mais nova):
-
-```
-npm install -g @openai/codex
-```
-
-**O `@openai/` importa.** Existe um pacote chamado só `codex`, de outro projeto
-sem relação nenhuma com este, e instalar o errado é o tropeço mais comum aqui.
-
 ## Entrar na sua conta
 
 Rode:
@@ -94,9 +83,6 @@ prática deste livro depende de plano pago.
 - **`codex: command not found` depois de instalar.** Quase sempre é o terminal
   que ainda não sabe do comando novo. Feche e abra de novo. Se persistir, cole
   a mensagem inteira para o agente da web.
-- **Instalou pelo npm e deu erro de permissão.** Não saia rodando com `sudo` por
-  conta própria: peça ao agente que explique a diferença entre as saídas
-  possíveis antes de você escolher.
 - **A janela do navegador não abriu na hora de entrar.** O terminal costuma
   imprimir um endereço junto; copie e abra à mão.
 - **Você instalou no Windows em vez de no Linux.** Sintoma: o Codex funciona,
@@ -105,16 +91,8 @@ prática deste livro depende de plano pago.
 
 ## Desfazer
 
-Instalado pelo script:
-
 ```
 rm -rf ~/.codex ~/.local/bin/codex
-```
-
-Instalado pelo npm:
-
-```
-npm uninstall -g @openai/codex
 ```
 
 Sair da conta sem desinstalar: `codex logout`.
