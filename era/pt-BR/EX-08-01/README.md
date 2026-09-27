@@ -2,6 +2,8 @@
 
 Exercício de **A Era dos Agentes** — Parte VIII, capítulo 23, *A música ajuda a estudar?*.
 
+**[Abrir este exercício no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-08-01/)** — com o pedido num botão de copiar, melhor no celular.
+
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 
 ## O que você vai ver acontecer

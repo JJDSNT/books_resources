@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preparar a máquina — EX-03-01</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:18px 16px 56px; max-width:44rem;
+    margin-inline:auto; font-family:-apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,sans-serif; line-height:1.6; color:#12202B;
+    background:#FAF8F4; }
+  .volta { font-size:.88rem; margin:0 0 1.4rem; }
+  a { color:#1E8E99; }
+  h1 { font-size:1.5rem; line-height:1.25; color:#12344F; margin:0 0 .6rem; }
+  h2 { font-size:1.12rem; color:#12344F; margin:2rem 0 .5rem; }
+  h3 { font-size:1rem; color:#12344F; margin:1.5rem 0 .4rem; }
+  hr { border:0; border-top:1px solid #DFD8CC; margin:2.2rem 0; }
+  pre { background:#F1EAE0; padding:12px 14px; overflow-x:auto;
+    border-radius:4px; font-size:.88rem; }
+  code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:.9em; }
+  p code, li code { background:#F1EAE0; padding:.1em .35em;
+    border-radius:3px; }
+  blockquote { margin:1.2em 0; padding:.1em 0 .1em .9em;
+    border-left:3px solid #32D9E2; color:#4A5A66; }
+  li { margin:.35rem 0; }
+  footer { margin-top:2.6rem; padding-top:1rem;
+    border-top:1px solid #DFD8CC; font-size:.84rem; color:#6B7780; }
+  @media (prefers-color-scheme: dark) {
+    body { background:#0E1A22; color:#E8E4DC; }
+    h1,h2,h3 { color:#8CE8E7; }
+    pre, p code, li code { background:#1A2730; }
+    blockquote { color:#A9B8C2; }
+  }
+</style>
+<p class="volta"><a href="../">&larr; EX-03-01 — Peça ajuda para abrir a porta</a></p>
+<h1>Preparar a máquina</h1>
+<p><em>Verificado em 27 de setembro de 2026, com WSL 2.9.3 e Ubuntu 24.04 LTS.
+Telas e comandos mudam; se o que você vê não bater com o que está aqui,
+<strong>confie na tela</strong> — e prefira o que o agente te disser, porque ele consulta a
+informação de hoje.</em></p>
+<p>Esta página mora fora do livro de propósito: um livro impresso não se corrige,
+e esta página sim.</p>
+<p><strong>Você não precisa dela para fazer o exercício.</strong> O agente conduz. Ela é rede
+de segurança: para quando ele se perder, para conferir antes de autorizar
+alguma coisa, ou para saber como desfazer.</p>
+<hr />
+<h2>Windows</h2>
+<h3>O que você vai instalar, e o que isso não é</h3>
+<p>O <strong>WSL</strong> é um Linux completo rodando dentro do Windows, lado a lado com tudo
+que você já usa. Não substitui o Windows, não apaga nada, não pede para
+formatar disco e não é uma máquina virtual pesada da qual você precise cuidar.</p>
+<p>Junto com o WSL vem uma <strong>distribuição</strong> — que é o Linux propriamente dito. Por
+padrão, o <strong>Ubuntu</strong>, que é a mais comum e a que este livro assume. Você não
+precisa escolher nada: o instalador traz o Ubuntu se você não pedir outro.</p>
+<p>Quando terminar, você vai ter um aplicativo novo no menu Iniciar, chamado
+<strong>Ubuntu</strong>. É por ele que o agente trabalha.</p>
+<h3>Passo 1 — instalar</h3>
+<ol>
+<li>
+<p>Abra o <strong>Terminal do Windows</strong> ou o <strong>PowerShell</strong> como administrador
+(clique com o botão direito no menu Iniciar e escolha a opção que diz
+<em>administrador</em>).</p>
+</li>
+<li>
+<p>Execute:</p>
+<pre><code>wsl --install
+</code></pre>
+</li>
+<li>
+<p>Espere. Ele baixa o WSL e o Ubuntu, e isso leva alguns minutos numa rede
+comum.</p>
+</li>
+<li>
+<p><strong>Reinicie o computador</strong> quando for pedido. Essa reinicialização não é
+opcional.</p>
+</li>
+</ol>
+<h3>Passo 2 — primeira abertura do Ubuntu</h3>
+<p>Depois de reiniciar, o Ubuntu abre sozinho — ou você o abre pelo menu Iniciar.
+Na primeira vez, ele faz duas perguntas:</p>
+<ul>
+<li><strong>Um nome de usuário.</strong> Só letras minúsculas, sem espaço nem acento. Não
+precisa ser igual ao do Windows.</li>
+<li><strong>Uma senha.</strong> Anote: ela é pedida toda vez que algo for instalado. E repare
+numa coisa que assusta quem nunca viu: <strong>a senha não aparece enquanto você
+digita</strong>, nem em bolinhas. Isso é normal no Linux. Digite e aperte Enter.</li>
+</ul>
+<p>Terminado isso, você está dentro do Linux.</p>
+<h3>Passo 3 — atualizar antes de usar</h3>
+<p>Uma distribuição recém-instalada quase sempre tem pacotes desatualizados. Peça
+ao agente que faça a primeira atualização, ou execute:</p>
+<pre><code>sudo apt update &amp;&amp; sudo apt upgrade -y
+</code></pre>
+<p>A senha pedida aqui é a do Ubuntu, não a do Windows.</p>
+<h3>Conferir se deu certo</h3>
+<p>No PowerShell:</p>
+<pre><code>wsl --status
+</code></pre>
+<p>Deve mostrar a versão do WSL e a distribuição padrão. Para ver o que está
+instalado e em que versão do WSL:</p>
+<pre><code>wsl --list --verbose
+</code></pre>
+<p>O <code>*</code> marca a distribuição padrão, e a coluna de versão deve dizer <strong>2</strong>.</p>
+<h3>Onde ficam os seus arquivos</h3>
+<p>Isto confunde bastante gente no começo, e vale saber antes de o agente criar
+alguma coisa.</p>
+<p>O Linux tem o próprio sistema de arquivos, separado do Windows. A sua pasta
+pessoal lá dentro é <code>/home/&lt;seu-usuário&gt;</code>. Pelo Windows, dá para chegar nela
+abrindo o Explorador de Arquivos e digitando na barra de endereço:</p>
+<pre><code>\\wsl$\Ubuntu\home
+</code></pre>
+<p>O caminho inverso também funciona: de dentro do Linux, o seu disco C aparece em
+<code>/mnt/c</code>.</p>
+<p><strong>Recomendação:</strong> deixe o agente trabalhar <strong>dentro do Linux</strong>, não em
+<code>/mnt/c</code>. É mais rápido, e evita uma classe de problemas de permissão que dá
+trabalho para diagnosticar.</p>
+<h3>Se der errado</h3>
+<ul>
+<li><strong>&quot;A virtualização não está habilitada&quot;.</strong> Precisa ser ligada na BIOS. O nome
+varia por fabricante — procure por <em>Virtualization</em>, <em>VT-x</em>, <em>SVM</em> ou
+<em>Hyper-V</em>. Cole a mensagem inteira para o agente: ele conhece as variações.</li>
+<li><strong>O comando não é reconhecido.</strong> Seu Windows pode ser antigo demais.
+<code>wsl --install</code> funciona no Windows 11 e no Windows 10 recente. Peça ao agente
+que confira a sua versão.</li>
+<li><strong>Travou no download.</strong> É rede. Rode o comando de novo; ele retoma.</li>
+<li><strong>Esqueci a senha do Ubuntu.</strong> Dá para redefinir sem reinstalar. Peça ao
+agente — o procedimento envolve entrar como administrador do Linux e trocar a
+senha.</li>
+<li><strong>Instalou mas não abre.</strong> Tente <code>wsl --update</code> no PowerShell e reinicie.</li>
+</ul>
+<h3>Como desfazer tudo</h3>
+<pre><code>wsl --unregister Ubuntu
+</code></pre>
+<p>Isso apaga a distribuição e <strong>tudo que estiver dentro dela</strong> — inclusive
+arquivos que você tenha criado lá. O Windows não é afetado.</p>
+<p>É justamente por isso que dá para autorizar instalações lá dentro com
+tranquilidade: o estrago possível está contido, e desfazer é um comando.</p>
+<hr />
+<h2>macOS</h2>
+<p>Você já tem o que precisa. O Terminal está em <strong>Aplicativos → Utilitários →
+Terminal</strong>, ou pelo Spotlight (<code>⌘ espaço</code>, digite &quot;Terminal&quot;).</p>
+<p>Na primeira vez que algo precisar das ferramentas de linha de comando, o
+sistema oferece instalá-las numa janela. Aceite — é um download da Apple, não
+de terceiros.</p>
+<hr />
+<h2>Linux</h2>
+<p>Você já tem o que precisa. O terminal costuma abrir com <code>Ctrl + Alt + T</code>.</p>
+<hr />
+<h2>Depois: o agente local</h2>
+<p>Com o terminal pronto, falta instalar um agente que rode nele. O livro sugere o
+<strong>Codex</strong> pela possibilidade de uso gratuito, mas não é obrigatório — Claude
+Code, Gemini CLI e OpenCode fazem o mesmo trabalho, cada um com suas telas e
+seus limites.</p>
+<p><strong>Não copie comandos de instalação daqui.</strong> Essa é a informação que envelhece
+mais rápido de todas. Peça ao agente da web que te conduza, um passo de cada
+vez, e ele consulta a versão de hoje.</p>
+<h3>Como saber que ficou pronto</h3>
+<p>Abra o agente local e peça a coisa mais simples possível:</p>
+<blockquote>
+<p>me diga em que pasta você está trabalhando agora</p>
+</blockquote>
+<p>Se vier uma resposta que corresponde ao seu computador — algo como
+<code>/home/seu-usuário</code> —, a porta está aberta.</p>
+
+<footer>
+  <a href="../">Voltar ao exercício</a> &middot;
+  <a href="../../">Todos os exercícios</a> &middot;
+  <a href="https://github.com/JJDSNT/books_resources/blob/main/era/pt-BR/EX-03-01/preparar-a-maquina.md">Ver o texto no repositório</a>
+</footer>

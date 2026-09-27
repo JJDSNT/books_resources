@@ -5,11 +5,23 @@ passo a passo verificado e projetos de exemplo.
 *Supporting materials for Jaime Dias's books — ready-to-copy prompts,
 verified walkthroughs and example projects.*
 
+## 👉 Leitor do livro? Comece aqui · Reading the book? Start here
+
+### **[jjdsnt.github.io/books_resources](https://jjdsnt.github.io/books_resources)**
+
+É a mesma coisa que está neste repositório, **melhor no celular**: cada
+exercício com o pedido num botão de copiar, e os passo a passo de preparação
+em página própria. É para lá que os códigos QR do livro levam.
+
+Este repositório serve para navegar os arquivos, propor correção e acompanhar
+mudanças. *This repository is for browsing files, proposing fixes and tracking
+changes; the site above is the reader-facing version.*
+
 ## Livros · Books
 
 | Slug | Livro | Idiomas |
 | --- | --- | --- |
-| [`era`](era/) | **A Era dos Agentes** — Uma introdução à inteligência artificial agentiva | pt-BR · *en em preparação* |
+| [`era`](era/) | **A Era dos Agentes** — Uma introdução à inteligência artificial agentiva | [pt-BR](https://jjdsnt.github.io/books_resources/era/pt-BR/) · *en em preparação* |
 
 ## Como isto funciona · How this works
 

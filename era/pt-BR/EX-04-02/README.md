@@ -2,6 +2,8 @@
 
 Exercício de **A Era dos Agentes** — Parte IV, capítulo 12, *Pôr no ar*.
 
+**[Abrir este exercício no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-02/)** — com o pedido num botão de copiar, melhor no celular.
+
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 
 ## O que você vai ver acontecer
@@ -24,7 +26,9 @@ O agente local, o programa do capítulo anterior e uma conta gratuita no provedo
 
 ## Antes de começar
 
-- [Criar a conta e autorizar o agente](conta-e-autorizacao.md)
+Passo a passo verificado, mantido fora do livro para poder ser corrigido:
+
+- [Criar a conta e autorizar o agente](conta-e-autorizacao.md) · [versão no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-04-02/conta-e-autorizacao/)
 
 ## O pedido
 

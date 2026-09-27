@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Criar a conta e autorizar o agente — EX-04-02</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:18px 16px 56px; max-width:44rem;
+    margin-inline:auto; font-family:-apple-system,BlinkMacSystemFont,
+    "Segoe UI",Roboto,sans-serif; line-height:1.6; color:#12202B;
+    background:#FAF8F4; }
+  .volta { font-size:.88rem; margin:0 0 1.4rem; }
+  a { color:#1E8E99; }
+  h1 { font-size:1.5rem; line-height:1.25; color:#12344F; margin:0 0 .6rem; }
+  h2 { font-size:1.12rem; color:#12344F; margin:2rem 0 .5rem; }
+  h3 { font-size:1rem; color:#12344F; margin:1.5rem 0 .4rem; }
+  hr { border:0; border-top:1px solid #DFD8CC; margin:2.2rem 0; }
+  pre { background:#F1EAE0; padding:12px 14px; overflow-x:auto;
+    border-radius:4px; font-size:.88rem; }
+  code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:.9em; }
+  p code, li code { background:#F1EAE0; padding:.1em .35em;
+    border-radius:3px; }
+  blockquote { margin:1.2em 0; padding:.1em 0 .1em .9em;
+    border-left:3px solid #32D9E2; color:#4A5A66; }
+  li { margin:.35rem 0; }
+  footer { margin-top:2.6rem; padding-top:1rem;
+    border-top:1px solid #DFD8CC; font-size:.84rem; color:#6B7780; }
+  @media (prefers-color-scheme: dark) {
+    body { background:#0E1A22; color:#E8E4DC; }
+    h1,h2,h3 { color:#8CE8E7; }
+    pre, p code, li code { background:#1A2730; }
+    blockquote { color:#A9B8C2; }
+  }
+</style>
+<p class="volta"><a href="../">&larr; EX-04-02 — Mande o endereço para alguém</a></p>
+<h1>Criar a conta e autorizar o agente</h1>
+<p><em>Verificado em 26 de setembro de 2026. Telas de serviço mudam; se o que você
+vê não bater com o que está aqui, <strong>confie na tela</strong> e nos avise.</em></p>
+<p>Este passo a passo mora aqui, e não no livro, de propósito: um livro impresso
+não se corrige, e esta página sim.</p>
+<h2>1. Criar a conta — isto é com você</h2>
+<p>Vá a <strong>netlify.com</strong> e crie uma conta. Dá para usar e-mail e senha, ou entrar
+com uma conta que você já tenha (GitHub, GitLab, Bitbucket, Google).</p>
+<p><strong>Não é pedido cartão de crédito.</strong> O plano gratuito é gratuito de verdade, sem
+período de teste: se você estourar a cota do mês, o site fica suspenso até o mês
+virar — não chega fatura.</p>
+<p>O agente não faz esta parte por você, e nem deveria. É a sua conta.</p>
+<h2>2. Autorizar o agente — o momento que importa</h2>
+<p>Depois que você pedir a publicação, o agente vai precisar de acesso à sua conta.
+O que acontece é isto:</p>
+<ol>
+<li>Ele executa a conexão.</li>
+<li><strong>Uma janela do navegador se abre</strong>, já com você identificado, perguntando se
+autoriza aquele programa a agir na sua conta.</li>
+<li>Você lê e clica em autorizar.</li>
+</ol>
+<p><strong>Se o agente pedir a sua senha, recuse.</strong> Não é assim que funciona. Senha de
+conta não se entrega a programa nenhum — a autorização acontece no navegador, do
+lado do serviço, e o que fica guardado na sua máquina é uma credencial que você
+pode revogar depois.</p>
+<h2>3. Como tirar a autorização depois</h2>
+<p>Vale saber antes de precisar.</p>
+<p>No painel da Netlify, em <strong>User settings → Applications</strong>, ficam listados os
+acessos concedidos. Dá para revogar qualquer um a qualquer momento. Fazer isso
+não apaga os seus sites — só tira o acesso daquele programa.</p>
+<p>Se você criou o site só para o exercício, apague também o site: no painel do
+projeto, em <strong>Site configuration → Danger zone</strong>.</p>
+<h2>4. Se algo der errado</h2>
+<ul>
+<li><strong>Pediram cartão.</strong> Pare e leia com atenção. Este exercício não precisa de
+plano pago; se a tela insistir, não continue e nos avise.</li>
+<li><strong>A janela de autorização não abriu.</strong> Pode ser bloqueio de pop-up. Libere e
+peça ao agente que tente de novo.</li>
+<li><strong>Deu erro de permissão na publicação.</strong> Provavelmente a autorização não
+chegou a ser concluída. Peça ao agente que refaça a conexão.</li>
+</ul>
+
+<footer>
+  <a href="../">Voltar ao exercício</a> &middot;
+  <a href="../../">Todos os exercícios</a> &middot;
+  <a href="https://github.com/JJDSNT/books_resources/blob/main/era/pt-BR/EX-04-02/conta-e-autorizacao.md">Ver o texto no repositório</a>
+</footer>

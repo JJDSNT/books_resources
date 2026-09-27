@@ -2,6 +2,8 @@
 
 Exercício de **A Era dos Agentes** — Parte VII, capítulo 20, *Um pedido que precisa de aprovação*.
 
+**[Abrir este exercício no site](https://jjdsnt.github.io/books_resources/era/pt-BR/EX-07-01/)** — com o pedido num botão de copiar, melhor no celular.
+
 > As perguntas de observação e o conceito que este exercício demonstra estão no livro. Aqui fica só o que você precisa para executar.
 
 ## O que você vai ver acontecer
